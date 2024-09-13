@@ -1,0 +1,54 @@
+.roomPaper {
+  max-width: 467px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 50px 50px;
+}
+
+.roomPaperTitle {
+  margin: 0 0 12px;
+}
+
+.roomPaperDescTitle {
+  margin: 0;
+}
+
+.roomPaperDesc {
+  margin: 10px 0 0;
+}
+
+.roomPaperDivider {
+  margin: 16px 0;
+  border-top-width: 1px;
+}
+
+.roomPaperPriceText {
+  margin: 0 0 4px;
+}
+
+.roomPaperPrice {
+  margin: 0;
+}
+
+@media (max-width: 1023px) {
+  .roomPaper {
+    max-width: 100%;
+    padding: 30px 30px 12px;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .roomPaperFooter {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 479px) {
+  .roomPaper {
+    padding: 20px 20px 12px;
+  }
+  .roomPaperDesc {
+    margin-top: 4px;
+  }
+}

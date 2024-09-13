@@ -1,0 +1,22 @@
+.specialOfferCardGrid {
+  display: grid;
+  grid-auto-rows: 286px;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media (max-width: 1023px) {
+  .specialOfferCardGrid {
+    grid-auto-rows: 232px;
+    gap: 28px;
+  }
+}
+
+@media (max-width: 767px) {
+  .specialOfferCardGrid {
+    grid-auto-rows: 395px;
+    gap: 16px;
+  }
+}

@@ -1,0 +1,52 @@
+.contactsDisplay {
+  border: 1px solid var(--secondary-normal-color);
+  border-radius: 3px;
+}
+
+.contactsDisplayInner {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.contactsContentInTable {
+  margin-top: 4px;
+  margin-bottom: 24px;
+  font-weight: bold;
+}
+
+.contactsNameDisplay {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.contactsHrDisplay {
+  background-color: var(--secondary-normal-color);
+  border: 1px solid #e4dfd4;
+  margin: 0;
+}
+
+.contactsDisplayContacts {
+  margin-bottom: 16px;
+}
+
+@media (max-width: 1023px) {
+  .contactsDisplayInner {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .contactsNameDisplay {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  .contactsContentInTable {
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contactsNameDisplay {
+    margin-top: 16px;
+  }
+}

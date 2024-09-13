@@ -1,0 +1,15 @@
+.callMeBackFormBtn {
+  padding: 13px 22px;
+  margin-top: 35px;
+}
+
+.callMeBackFormBtnWrapper {
+  padding-bottom: 30px;
+}
+
+@media (max-width: 1023px) {
+  .callMeBackFormBtn {
+    padding: 11px 20px;
+    margin-top: 40px;
+  }
+}

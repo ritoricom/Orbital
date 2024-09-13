@@ -1,0 +1,26 @@
+.reviewsSliderArrowPrev {
+  left: -88px;
+  z-index: 0;
+}
+
+.reviewsSliderArrowNext {
+  right: -88px;
+  z-index: 0;
+}
+
+.reviewsSliderArrows:global(.splide__arrow:disabled) {
+  background-color: var(--text-quinary-color);
+  cursor: auto;
+}
+
+.reviewsSliderArrows:global(.splide__arrow:disabled:hover) {
+  background-color: var(--text-quinary-color);
+  cursor: auto;
+}
+
+@media (max-width: 1599px) {
+  .reviewsSliderArrowNext,
+  .reviewsSliderArrowPrev {
+    display: none;
+  }
+}

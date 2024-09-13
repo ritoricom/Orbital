@@ -1,0 +1,3 @@
+.vkIcon:hover path[fill="white"] {
+  fill: var(--primary-light-color);
+}

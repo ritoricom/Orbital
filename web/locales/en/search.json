@@ -1,0 +1,27 @@
+{
+  "ui": {
+    "searchPopper": {
+      "spb": "Saint Petersburg",
+      "obn": "Obninsk",
+      "nvz": "Novovoronezh",
+      "specialOffers": "Special offers",
+      "rooms": "Rooms",
+      "news": "News",
+      "leisures": "Leisure",
+      "notFound": "Nothing found"
+    },
+    "searchModalContent": {
+      "spb": "Saint Petersburg",
+      "obn": "Obninsk",
+      "nvz": "Novovoronezh",
+      "specialOffers": "Special offers",
+      "rooms": "Rooms",
+      "news": "News",
+      "leisures": "Leisure",
+      "notFound": "Nothing found"
+    },
+    "burgerSearch": {
+      "search": "Search"
+    }
+  }
+}

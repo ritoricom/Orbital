@@ -1,0 +1,77 @@
+/* link root */
+.link {
+  display: flex;
+  width: fit-content;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+}
+
+.linkColorLight {
+  color: var(--background-primary-color);
+}
+
+.linkColorDark {
+  color: var(--text-primary-color);
+}
+
+.link:hover {
+  color: var(--primary-light-color);
+}
+
+.link:hover path[fill="white"] {
+  fill: var(--primary-light-color);
+}
+
+.linkDisabled {
+  color: rgba(255, 255, 255, 0.6);
+  pointer-events: none;
+}
+
+.linkUppercase {
+  text-transform: uppercase;
+}
+
+/* inner active */
+.linkInner {
+  border-bottom: 1px solid transparent;
+}
+
+.linkInnerColorLight {
+  border-color: var(--background-primary-color);
+}
+
+.linkInnerColorDark {
+  border-color: var(--text-primary-color);
+}
+
+.link:hover .linkInnerColorLight {
+  border-color: var(--primary-light-color);
+}
+
+.link:hover .linkInnerColorDark {
+  border-color: var(--primary-light-color);
+}
+
+.linkDisabled .linkInnerActive {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+/* link sizes */
+.linkSizeL {
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.linkSizeM {
+  font-size: 14px;
+  line-height: 170%;
+}
+
+.linkSizeS {
+  font-size: 12px;
+  line-height: 170%;
+}

@@ -1,0 +1,73 @@
+.aboutCafe {
+  padding-top: 50px;
+  padding-bottom: 90px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 28px;
+}
+
+.aboutCafeTextBlock {
+  max-width: 448px;
+}
+
+.aboutCafeImgBlock {
+  display: grid;
+  gap: 28px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.aboutCafeDescription {
+  margin: 0;
+  margin-top: 16px;
+}
+
+.aboutCafeTitle {
+  margin: 0;
+}
+
+.aboutCafeImg {
+  height: 423px;
+  width: 569px;
+  position: relative;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+@media (max-width: 1023px) {
+  .aboutCafe {
+    padding-top: 0;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aboutCafeTextBlock {
+    max-width: 100%;
+  }
+
+  .aboutCafeImgBlock {
+    display: grid;
+    gap: 0;
+    grid-template-columns: 0fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutCafe {
+    padding-bottom: 20px;
+  }
+
+  .aboutCafeImgBlock {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 400px) {
+  .aboutCafeContainer {
+    padding: 0;
+  }
+
+  .aboutCafeTextBlock {
+    padding: 0 20px 20px;
+  }
+}

@@ -1,0 +1,24 @@
+.specialForYouDiv {
+  padding: 145px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 40px;
+  column-gap: 28px;
+}
+
+.specialForYouInfo {
+  grid-row: 1 / 3;
+}
+
+.specialForYouTitle {
+  margin-top: 40px;
+}
+
+.specialForYouDescription {
+  margin-top: 30px;
+  padding-right: 52px;
+}
+
+.specialForYouButton {
+  grid-column: 2 / 4;
+}

@@ -1,0 +1,19 @@
+{
+  "routes": {
+    "leisures": {
+      "title": "Досуг",
+      "loadMore": "Показать ещё"
+    },
+    "leisure": {
+      "title": "Досуг"
+    }
+  },
+  "ui": {
+    "otherLeisures": {
+      "title": "Вам может понравиться"
+    },
+    "leisuresPaper": {
+      "route": "Маршрут:"
+    }
+  }
+}

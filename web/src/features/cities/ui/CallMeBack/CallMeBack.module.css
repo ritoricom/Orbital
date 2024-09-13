@@ -1,0 +1,93 @@
+.callMeBackWrapper {
+  padding-bottom: 148px;
+}
+
+.callMeBack {
+  position: relative;
+  padding: 50px;
+}
+
+.callMeBackWrapperImg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.callMeBackImg {
+  object-fit: cover;
+  z-index: 0;
+}
+
+.callMeBackContainer {
+  transform: translate(0, 108px);
+}
+
+.callMeBackForm {
+  background-color: #ffffff;
+  padding: 60px;
+  padding-bottom: 30px;
+  padding-top: 52px;
+}
+
+.callMeBackFields {
+  max-width: 467px;
+}
+
+.callMeBackFormTitle {
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.callMeBackFormDescription {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1023px) {
+  .callMeBackWrapper {
+    padding-bottom: 114px;
+  }
+
+  .callMeBack {
+    padding: 0;
+  }
+
+  .callMeBackContainer {
+    transform: translate(0, 75px);
+  }
+
+  .callMeBackForm {
+    padding: 30px;
+    padding-bottom: 0;
+    max-width: 376px;
+  }
+
+  .callMeBackFormDescription {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 479px) {
+  .callMeBackWrapper {
+    padding-bottom: 0;
+  }
+
+  .callMeBack {
+    box-shadow: none;
+    padding-bottom: 0;
+  }
+
+  .callMeBackForm {
+    background-color: var(--background-secondary-color);
+    padding: 0;
+  }
+
+  .callMeBackContainer {
+    transform: none;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: center;
+  }
+}

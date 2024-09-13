@@ -1,0 +1,15 @@
+.arrowIconDirectionLeft {
+  transform: rotate(180deg);
+}
+
+.arrowIconDirectionRight {
+  transform: rotate(0deg);
+}
+
+.arrowIconDirectionTop {
+  transform: rotate(270deg);
+}
+
+.arrowIconDirectionBottom {
+  transform: rotate(90deg);
+}

@@ -1,0 +1,18 @@
+.historyHotel {
+  background-color: var(--background-tertiary-color);
+}
+
+.historyHotelBox {
+  padding-top: 90px;
+  padding-right: 119px;
+}
+
+.historyHotelFoot {
+  display: flex;
+  column-gap: 50px;
+  margin-top: 84px;
+}
+
+.historyHotelDivider {
+  margin-top: 24px;
+}

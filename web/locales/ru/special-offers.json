@@ -1,0 +1,20 @@
+{
+  "routes": {
+    "specialOffer": {
+      "specialOffers": "Спецпредложения"
+    },
+    "specialOffers": {
+      "metaTitle": "Спецпредложения",
+      "title": "Спецпредложения",
+      "loadMore": "Показать еще"
+    }
+  },
+  "ui": {
+    "otherSpecialOffers": {
+      "title": "Другие спецпредложения"
+    },
+    "specialOfferCard": {
+      "more": "Подробнее"
+    }
+  }
+}

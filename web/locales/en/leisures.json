@@ -1,0 +1,8 @@
+{
+  "routes": {
+    "leisures": {
+      "title": "Leisures",
+      "loadMore": "Show more"
+    }
+  }
+}

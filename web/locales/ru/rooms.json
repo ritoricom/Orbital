@@ -1,0 +1,30 @@
+{
+  "routes": {
+    "rooms": {
+      "metaTitle": "Номера",
+      "title": "Номера",
+      "loadMore": "Показать еще"
+    },
+    "room": {
+      "metaTitle": "Номера",
+      "title": "Номера",
+      "loadMore": "Показать еще",
+      "sliderDisclaimer": "* номер может отличаться от представленных фотографий"
+    }
+  },
+  "ui": {
+    "roomPaper": {
+      "description": "Описание:",
+      "noDescription": "Описание отсутствует",
+      "priceText": "Цена:",
+      "priceNumber": "От {{price}} р."
+    },
+    "roomPrice": {
+      "priceText": "Цена:",
+      "priceNumber": "От {{price}} р."
+    },
+    "roomPeculiarities": {
+      "title": "Особенности:"
+    }
+  }
+}

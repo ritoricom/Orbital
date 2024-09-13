@@ -1,0 +1,186 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+  padding: 140px 0 130px;
+}
+
+.wrapper {
+  max-width: 923px;
+  padding: 50px 60px;
+  background-color: var(--primary-white-color);
+}
+
+.mainTitle {
+  margin-top: 0;
+  margin-bottom: 16px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--secondary-normal-color);
+}
+
+.listEl {
+  width: 100%;
+  margin-bottom: 16px;
+  padding-bottom: 28px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 130%;
+  border-bottom: 1px solid var(--secondary-normal-color);
+  margin-top: 40px;
+}
+
+.listEl:first-child {
+  margin-top: 0;
+}
+
+.title {
+  margin: 0;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 0;
+}
+
+.text p {
+  margin: 0;
+  line-height: 28.8px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.listWrapper {
+  margin: 34px 0;
+  line-height: 28.8px;
+}
+
+.listWrapper li {
+  list-style-type: none;
+  display: flex;
+}
+
+.listWrapper ol {
+  margin: 0;
+  padding: 0;
+  counter-reset: list1;
+}
+
+.listWrapper ol li:before {
+  counter-increment: list1;
+  content: counter(list1) ". ";
+  padding-right: 14px;
+}
+
+.listWrapper ol ol {
+  counter-reset: list2;
+}
+
+.listWrapper ol ol li:before {
+  counter-increment: list2;
+  content: counter(list1) "." counter(list2) " ";
+  padding-right: 14px;
+}
+
+.listWrapper ol ol ol {
+  counter-reset: list3;
+  margin-left: 20px;
+}
+
+.listWrapper ol ol ol li:before {
+  counter-increment: list3;
+  content: counter(list1) "." counter(list2) "." counter(list3) " ";
+  padding-right: 14px;
+}
+
+.listItem {
+  color: var(--text-secondary-color);
+}
+
+.sublist {
+  padding-left: 20px;
+}
+
+.textLikeUnorderedList {
+  margin-left: 37px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.listDist {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.textLikeUnorderedList:before {
+  content: "\25cf";
+  vertical-align: middle;
+  font-size: 10px;
+  margin-right: 9px;
+}
+
+@media (max-width: 1023px) {
+  .container {
+    flex-direction: column;
+    padding: 55px 0 60px;
+    gap: 0;
+  }
+
+  .wrapper {
+    padding: 0px;
+    background-color: transparent;
+  }
+
+  .listWrapper {
+    margin: 20px 0;
+    line-height: 26.6px;
+  }
+
+  .mainTitle {
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--secondary-normal-color);
+  }
+
+  .text p {
+    line-height: 26.6px;
+    font-size: 14px;
+  }
+
+  .listEl {
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    font-size: 20px;
+    line-height: 140%;
+    margin-top: 20px;
+  }
+
+  .listDist {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 479px) {
+  .container {
+    padding: 42px 0 60px;
+    gap: 0;
+  }
+
+  .listWrapper {
+    margin: 20px 0;
+    line-height: 20.4px;
+  }
+
+  .text p {
+    line-height: 20.4px;
+    font-size: 12px;
+  }
+
+  .listDist {
+    font-size: 12px;
+  }
+}

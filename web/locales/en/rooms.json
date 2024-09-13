@@ -1,0 +1,30 @@
+{
+  "routes": {
+    "rooms": {
+      "metaTitle": "Rooms",
+      "title": "Rooms",
+      "loadMore": "show more"
+    },
+    "room": {
+      "metaTitle": "Rooms",
+      "title": "Rooms",
+      "loadMore": "show more",
+      "sliderDisclaimer": "* The number may differ from the photos presented"
+    }
+  },
+  "ui": {
+    "roomPaper": {
+      "description": "Description:",
+      "noDescription": "No description",
+      "priceText": "Price:",
+      "priceNumber": "From {{price}} r."
+    },
+    "roomPrice": {
+      "priceText": "Price:",
+      "priceNumber": "From {{price}} r."
+    },
+    "roomPeculiarities": {
+      "title": "Features:"
+    }
+  }
+}

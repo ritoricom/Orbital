@@ -1,0 +1,23 @@
+.roomsInner {
+  padding: 127px 0 160px;
+}
+
+.roomsLoadMoreBtn {
+  margin-top: 40px;
+}
+
+@media (max-width: 1023px) {
+  .roomsInner {
+    padding: 55px 0 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .roomsInner {
+    padding-top: 42px;
+  }
+
+  .roomsLoadMoreBtn {
+    margin-top: 20px;
+  }
+}

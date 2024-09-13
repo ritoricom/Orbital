@@ -1,0 +1,101 @@
+/* title root */
+
+.title {
+  font-weight: 700;
+}
+
+/* title orders */
+
+.titleOrder1 {
+  font-size: 90px;
+  line-height: 110%;
+}
+.titleOrder2 {
+  font-size: 46px;
+  line-height: 120%;
+}
+.titleOrder3 {
+  font-size: 36px;
+  line-height: 120%;
+}
+.titleOrder4 {
+  font-size: 26px;
+  line-height: 130%;
+}
+.titleOrder5 {
+  font-size: 20px;
+  line-height: 140%;
+}
+.titleOrder6 {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.titleColorPrimary {
+  color: var(--text-primary-color);
+}
+
+.titleColorSecondary {
+  color: var(--text-secondary-color);
+}
+
+.titleColorTertiary {
+  color: var(--text-tertiary-color);
+}
+
+.titleColorQuaternary {
+  color: var(--text-quaternary-color);
+}
+
+.titleColorQuinary {
+  color: var(--text-quinary-color);
+}
+
+.titleColorWhite {
+  color: var(--background-primary-color);
+}
+
+@media (max-width: 1023px) {
+  .titleOrder1 {
+    font-size: 70px;
+    line-height: 106%;
+  }
+  .titleOrder2 {
+    font-size: 46px;
+    line-height: 120%;
+  }
+  .titleOrder3 {
+    font-size: 26px;
+    line-height: 130%;
+  }
+  .titleOrder4 {
+    font-size: 20px;
+    line-height: 140%;
+  }
+  .titleOrder5,
+  .titleOrder6 {
+    font-size: 16px;
+    line-height: 150%;
+  }
+}
+
+@media (max-width: 479px) {
+  .titleOrder1 {
+    font-size: 46px;
+    line-height: 100%;
+  }
+  .titleOrder2 {
+    font-size: 26px;
+    line-height: 130%;
+  }
+  .titleOrder3 {
+    font-size: 20px;
+    line-height: 140%;
+  }
+  .titleOrder4,
+  .titleOrder5,
+  .titleOrder6 {
+    font-size: 16px;
+    line-height: 150%;
+  }
+}

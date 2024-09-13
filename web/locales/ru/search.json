@@ -1,0 +1,27 @@
+{
+  "ui": {
+    "searchPopper": {
+      "spb": "Санкт-Петербург",
+      "obn": "Обнинск",
+      "nvz": "Нововоронеж",
+      "specialOffers": "Спецпредложения",
+      "rooms": "Номера",
+      "news": "Новости",
+      "leisures": "Досуг",
+      "notFound": "Ничего не найдено"
+    },
+    "searchModalContent": {
+      "spb": "Санкт-Петербург",
+      "obn": "Обнинск",
+      "nvz": "Нововоронеж",
+      "specialOffers": "Спецпредложения",
+      "rooms": "Номера",
+      "news": "Новости",
+      "leisures": "Досуг",
+      "notFound": "Ничего не найдено"
+    },
+    "burgerSearch":{
+      "search": "Поиск"
+    }
+  }
+}

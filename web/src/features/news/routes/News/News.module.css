@@ -1,0 +1,27 @@
+.newsInner {
+  padding: 127px 0 160px;
+}
+
+.newsLoadMoreBtn {
+  margin-top: 40px;
+}
+
+@media (max-width: 1023px) {
+  .newsInner {
+    padding: 55px 0 60px;
+  }
+
+  .newsLoadMoreBtn {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 479px) {
+  .newsInner {
+    padding-top: 42px;
+  }
+
+  .newsLoadMoreBtn {
+    margin-top: 20px;
+  }
+}

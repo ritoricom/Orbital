@@ -1,0 +1,23 @@
+.socialNetworks {
+  display: flex;
+  column-gap: 30px;
+  margin: auto 0;
+}
+
+.socialNetworksPointer {
+  cursor: pointer;
+}
+
+.socialNetworksDark {
+  color: var(--text-primary-color);
+}
+
+.socialNetworksLight {
+  color: var(--primary-white-color);
+}
+
+@media (max-width: 1110px) {
+  .socialNetworks {
+    column-gap: 10px;
+  }
+}

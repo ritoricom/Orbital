@@ -1,0 +1,53 @@
+{
+  "name": "hotel-orbital-web",
+  "version": "1.8.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "postbuild": "next-sitemap",
+    "start": "next start",
+    "lint": "next lint --fix",
+    "format": "prettier --write .",
+    "translate-locales": "node ./scripts/translate-locales --from ru --to en",
+    "gen-component": "hygen gen component"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "2.9.10",
+    "@pbe/react-yandex-maps": "1.2.2",
+    "@popperjs/core": "2.11.7",
+    "@splidejs/react-splide": "0.7.12",
+    "@tanstack/react-query": "4.14.1",
+    "@tanstack/react-query-devtools": "4.14.5",
+    "@vercel/og": "0.0.20",
+    "clsx": "1.2.1",
+    "css-mediaquery": "0.1.2",
+    "dayjs": "1.11.6",
+    "env-var": "7.3.0",
+    "next": "12.3.3",
+    "next-i18next": "12.0.1",
+    "next-sitemap": "3.1.24",
+    "next-ym": "2.3.5",
+    "prop-types": "15.8.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "7.38.0",
+    "react-popper": "2.3.0",
+    "react-transition-group": "4.4.5",
+    "sharp": "0.31.1",
+    "ua-parser-js": "1.0.33",
+    "yup": "0.32.11"
+  },
+  "devDependencies": {
+    "@vitalets/google-translate-api": "8.0.0",
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "globby": "13.1.2",
+    "hygen": "6.2.11",
+    "make-dir": "3.1.0",
+    "prettier": "2.7.1",
+    "yargs": "17.5.1"
+  }
+}

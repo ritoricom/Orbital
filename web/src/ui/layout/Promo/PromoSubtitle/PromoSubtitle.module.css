@@ -1,0 +1,23 @@
+.promoSubtitle {
+  margin: 30px 0 0;
+  max-width: 360px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 132%;
+  color: var(--primary-white-color);
+}
+
+@media (max-width: 767px) {
+  .promoSubtitle {
+    margin: 20px 0 0;
+    max-width: 372px;
+  }
+}
+
+@media (max-width: 479px) {
+  .promoSubtitle {
+    margin: 16px 0 0;
+    max-width: 280px;
+    font-size: 16px;
+  }
+}

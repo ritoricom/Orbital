@@ -1,0 +1,53 @@
+.searchCard{
+  background-color: white;
+  width: 100%;
+  padding: 6px 0;
+  border-radius: 6px;
+  box-shadow: 0px 2px 10px 1px rgba(49, 49, 49, 0.35);
+  z-index: 15;
+  min-height: 55px;
+}
+
+.searchCardContainer{
+  display: flex;
+  gap: 12px;
+  cursor: pointer;
+  padding: 10px 16px;
+}
+.searchCardContainer:hover{
+  background: #F0EDE7;
+}
+
+.searchCardTextBlock,
+.searchCardText{
+  margin: auto 0;
+  max-width: fit-content;
+}
+
+.searchCardImage {
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.searchCardCity{
+  margin: 0;
+  padding: 0 8px;
+  border: solid 1px var(--secondary-normal-color);
+  border-radius: 16px;
+  width: fit-content;
+}
+
+.searchCardHideText{
+  display: -webkit-box;
+  margin: 0;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  max-width: fit-content;
+}
+
+.searchCardImageContainer{
+  margin: 0 0 auto;
+  flex-shrink: 0;
+}

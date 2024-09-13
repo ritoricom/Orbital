@@ -1,0 +1,19 @@
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+  color: var(--primary-white-color);
+  list-style: none;
+}
+
+.breadcrumbsLast {
+  word-break: break-all;
+}
+
+@media (max-width: 1023px) {
+  .breadcrumbs {
+    gap: 10px;
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "components": {
+    "dataDisplay": {
+      "noData": {
+        "title": "Unfortunately, the data is temporarily absent",
+        "returnMain": "Go back to the main page"
+      },
+      "spoiler": {
+        "readMore": "Read More"
+      }
+    },
+    "layout": {
+      "cityLinks": {
+        "spb": "Saint Petersburg",
+        "obn": "Obninsk",
+        "nvz": "Novovoronezh"
+      },
+      "footer": {
+        "rights": "© 2008 - {{currentYear}}. All rights reserved. When using materials, a link to the site {{selfLink}} is required",
+        "privacyPolicy": "Privacy Policy",
+        "rules": "Terms and Conditions of Stay"
+      },
+      "logo": "Orbital",
+      "burgerMenuModal": {
+        "privacyPolicy": "Privacy Policy"
+      },
+      "stickyHeader": {
+        "button": "book a room"
+      }
+    }
+  },
+  "lib": {
+    "bnovo": {
+      "bookingPanel": {
+        "bookRoom": "Book a room",
+        "bookingRoom": "Book a room",
+        "obn": "Obninsk",
+        "nvz": "Novovoronezh",
+        "spb": "St. Petersburg"
+      },
+      "bookingModal": {
+        "bookRoom": "Book a room",
+        "bookingRoom": "Rumber booking",
+        "obn": "Obninsk",
+        "nvz": "Novovoronezh",
+        "spb": "Saint Petersburg"
+      }
+    },
+    "cookieNotify": {
+      "title": "We use cookies for your convenience to use the site",
+      "agree": "Good"
+    },
+    "meta": {
+      "seo": {
+        "logo": "Orbital",
+        "postfixTitle": "Hotel «Orbital»",
+        "description": "Network of hotels of the Rosatom Technical Academy"
+      }
+    },
+    "yup": {
+      "useYup": {
+        "mixed": {
+          "required": "This is a required field",
+          "fieldInvalid": "Error"
+        },
+        "string": {
+          "min": "Minimal number of characters {{ value }}",
+          "max": "The maximum number of characters {{ value }}",
+          "mathes": "Enter in the correct format"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.htmlContent p {
+  margin: 0;
+}
+
+.htmlContent p:not(:last-child) {
+  margin: 0 0 7px;
+}
+
+.htmlContent a {
+  margin: 0px;
+  text-decoration: underline rgba(209, 169, 110, 0.4);
+  color: var(--text-secondary-color);
+}
+
+.htmlContent a:hover {
+  text-decoration-color: inherit;
+}

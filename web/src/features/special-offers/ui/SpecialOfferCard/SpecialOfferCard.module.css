@@ -1,0 +1,124 @@
+.specialOfferCard {
+  display: flex;
+  width: 100%;
+  background-color: var(--background-primary-color);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.02);
+  border-radius: var(--default-border-radius);
+}
+
+.specialOfferCover {
+  object-fit: cover;
+  border-radius: var(--default-border-radius);
+}
+
+.specialOfferContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 329px);
+  padding: 40px 70px 40px 50px;
+  box-sizing: border-box;
+}
+
+.specialOfferTitle {
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.specialOfferDesc {
+  margin: 16px 0 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.specialOfferActions {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.specialOfferDivider {
+  margin-right: 70px;
+  margin-left: 50px;
+  border-left: 1px solid var(--secondary-light-color);
+}
+
+.specialOfferMoreBtn {
+  padding-left: 58px;
+  padding-right: 58px;
+}
+
+@media (max-width: 1200px) {
+  .specialOfferDivider {
+    margin-right: 40px;
+    margin-left: 30px;
+  }
+
+  .specialOfferContent {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .specialOfferContent {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 80%;
+    padding: 20px;
+  }
+
+  .specialOfferMoreBtn {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .specialOfferActions {
+    align-items: flex-end;
+  }
+  .specialOfferDesc {
+    margin: 16px 0 20px;
+  }
+
+  .specialOfferCover {
+    width: 173px;
+  }
+}
+
+@media (max-width: 767px) {
+  .specialOfferCard {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .specialOfferContent {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .specialOfferMoreBtn {
+    width: 100%;
+  }
+
+  .specialOfferActions {
+    width: 100%;
+  }
+
+  .specialOfferTitle {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 479px) {
+  .specialOfferTitle {
+    -webkit-line-clamp: 2;
+  }
+}

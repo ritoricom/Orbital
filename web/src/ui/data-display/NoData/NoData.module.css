@@ -1,0 +1,17 @@
+.noData {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 117px;
+}
+
+.noDataTitle {
+  margin: 0;
+  text-align: center;
+}
+
+.noDataReturnBtn {
+  max-width: 329px;
+  margin-top: 40px;
+  box-sizing: border-box;
+}

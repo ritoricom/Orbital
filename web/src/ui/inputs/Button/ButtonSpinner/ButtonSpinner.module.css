@@ -1,0 +1,19 @@
+@-webkit-keyframes buttonSpinnerRun {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes buttonSpinnerRun {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.buttonSpinnerRun {
+  animation: buttonSpinnerRun 2s linear infinite;
+}

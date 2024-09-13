@@ -1,0 +1,36 @@
+.citiesLinkButton {
+  gap: 2px;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  font-size: 14px;
+  line-height: 170%;
+}
+.colorS {
+  color: var(--background-primary-color);
+}
+
+.citiesLinkButtonIcon {
+  width: 16px;
+  height: 16px;
+}
+
+.citiesLinkButton:hover {
+  color: var(--primary-light-color);
+  background: transparent;
+  border: 0;
+}
+
+@media (max-width: 479px) {
+  .citiesLinkButton {
+    font-size: 10px;
+  }
+}
+
+.citiesLinkColorDark {
+  color: black;
+}
+
+.citiesLinkColorLight {
+  color: var(--background-primary-color);
+}

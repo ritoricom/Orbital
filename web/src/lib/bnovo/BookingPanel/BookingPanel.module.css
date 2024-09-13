@@ -1,0 +1,49 @@
+.bookingPanel {
+  --booking-panel-height: 164px;
+  --booking-panel-spacing: calc(var(--booking-panel-height) / 2);
+  position: relative;
+  top: calc(var(--booking-panel-spacing) * -1);
+  left: 0;
+  right: 0;
+  margin-bottom: calc(var(--booking-panel-height) * -1);
+  padding: 30px 30px 18px;
+  background: var(--background-primary-color);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.02);
+  border-radius: 4px;
+  z-index: 5;
+}
+
+.bookingPanelElem {
+  padding: 0 10px;
+}
+
+.bookingPanelTitle {
+  margin: 0 0 10px;
+}
+
+.bookingPanelWidget {
+  height: 78px;
+}
+
+.buttonBook {
+  --booking-panel-height: 50px;
+  --booking-panel-spacing: calc(var(--booking-panel-height) / 2);
+  position: relative;
+  top: calc(var(--booking-panel-spacing) * -1);
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin-bottom: calc(var(--booking-panel-height) * -1);
+  z-index: 5;
+  text-transform: uppercase;
+}
+
+.containerNonSpacing {
+  padding: 0;
+  margin: 0;
+  z-index: 0;
+}
+
+.bookingModalAdapt {
+  overflow: hidden;
+}

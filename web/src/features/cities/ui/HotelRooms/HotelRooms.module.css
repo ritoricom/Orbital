@@ -1,0 +1,28 @@
+.hotelRoomsTitle {
+  margin: 42px 0 52px;
+  text-align: center;
+}
+
+.hotelRoomsContainer {
+  padding-bottom: 145px;
+}
+
+@media (max-width: 1023px) {
+  .hotelRoomsTitle {
+    margin: 0 0 20px;
+    text-align: start;
+    position: absolute;
+    top: -60px;
+    z-index: 3;
+  }
+  .hotelRoomsContainer {
+    padding-bottom: 50px;
+    position: relative;
+  }
+}
+
+@media (max-width: 479px) {
+  .hotelRoomsContainer {
+    padding-bottom: 40px;
+  }
+}

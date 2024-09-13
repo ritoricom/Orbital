@@ -1,0 +1,25 @@
+.contactBox {
+  display: flex;
+  column-gap: 45px;
+}
+
+.contactLinkDark {
+  border-bottom: 1px solid var(--text-secondary-color);
+}
+
+.contactLinkLight {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 1300px) {
+  .contactBox {
+    column-gap: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contactBox {
+    flex-direction: column;
+    row-gap: 12px;
+  }
+}

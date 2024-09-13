@@ -1,0 +1,76 @@
+/* button root */
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+  font-weight: 700;
+  line-height: 170%;
+  border-radius: 4px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.button:disabled {
+  color: #ffffff;
+  background-color: #c7c7c7;
+}
+
+.buttonFullWidth {
+  width: 100%;
+}
+
+.buttonUppercase {
+  text-transform: uppercase;
+}
+
+/* button sizes */
+.buttonSizeS {
+  padding: 8px 18px;
+  font-size: 12px;
+}
+
+.buttonSizeM {
+  padding: 10px 22px;
+  font-size: 14px;
+}
+
+.buttonSizeL {
+  padding: 13px 26px;
+  font-size: 14px;
+}
+
+.buttonSizeXL {
+  padding: 18px 26px;
+  font-size: 14px;
+}
+
+/* button colors */
+.buttonColorPrimary {
+  color: var(--primary-white-color);
+  background-color: var(--primary-light-color);
+}
+
+.buttonColorPrimary:hover {
+  background-color: var(--primary-dark-color);
+}
+
+.buttonColorSecondaryLight {
+  color: var(--text-tertiary-color);
+  background-color: var(--background-tertiary-color);
+}
+
+.buttonColorSecondaryLight:hover {
+  background-color: var(--secondary-dark-color);
+}
+
+.buttonColorSecondaryDark {
+  color: var(--text-tertiary-color);
+  background-color: var(--secondary-normal-color);
+}
+
+.buttonColorSecondaryDark:hover {
+  background-color: var(--secondary-dark-color);
+}

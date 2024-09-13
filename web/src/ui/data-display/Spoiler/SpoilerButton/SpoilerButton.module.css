@@ -1,0 +1,14 @@
+.spoilerButton {
+  cursor: pointer;
+  display: flex;
+  gap: 6px;
+}
+
+.spoilerButtonText {
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+
+.spoilerButtonIcon {
+  margin-top: 14px;
+}

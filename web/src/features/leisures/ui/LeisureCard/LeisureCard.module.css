@@ -1,0 +1,71 @@
+.leisureCard {
+  --leisure-card-radius: 2px;
+  position: relative;
+  display: flex;
+  border-radius: var(--leisure-card-radius);
+  cursor: pointer;
+}
+
+.leisureCardLinkBox {
+  display: flex;
+  text-decoration: none;
+}
+
+.leisureCardOverlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(67, 67, 67, 0) 0%,
+    rgba(67, 67, 67, 0.5) 70.98%
+  );
+  border-radius: var(--leisure-card-radius);
+  z-index: 0;
+}
+
+.leisureCard:hover .leisureCardOverlay {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    linear-gradient(
+      180deg,
+      rgba(67, 67, 67, 0) 0%,
+      rgba(67, 67, 67, 0.5) 70.98%
+    );
+}
+
+.leisureCardImg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--leisure-card-radius);
+  z-index: 0;
+}
+
+.leisureCardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-grow: 1;
+  padding: 40px;
+  z-index: 1;
+}
+
+.leisureCardName {
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+@media (max-width: 1023px) {
+  .leisureCardContent {
+    padding: 20px;
+  }
+}

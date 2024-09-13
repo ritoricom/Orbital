@@ -1,0 +1,18 @@
+.rating {
+  display: flex;
+  gap: 4px;
+}
+
+.ratingCircle {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+}
+
+.ratingCircleEmpty {
+  background-color: var(--secondary-normal-color);
+}
+
+.ratingCircleFilled {
+  background-color: var(--primary-light-color);
+}

@@ -1,0 +1,124 @@
+.hotelRoomsBannerCard {
+  position: relative;
+  margin-top: 50px;
+}
+.hotelRoomsBannerCardImgBlock {
+  width: 686px;
+  position: relative;
+  height: 473px;
+  border-radius: 4px;
+  z-index: 2;
+}
+.hotelRoomsBannerCardImg {
+  border-radius: 4px;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.hotelRoomsBannerCardFootnote {
+  margin: 0;
+  margin-top: 24px;
+}
+
+.hotelRoomsBannerCardTextBlock {
+  position: absolute;
+  top: 52px;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 372px;
+  width: 614px;
+  padding: 50px;
+  padding-left: 141px;
+  z-index: 1;
+  border-radius: 4px;
+  background: var(--background-primary-color);
+  box-shadow: 0px 15px 49px rgba(0, 0, 0, 0.05);
+}
+
+.hotelRoomsBannerCardButton {
+  margin: 0;
+  margin-right: auto;
+}
+
+.hotelRoomsBannerCardDescription {
+  display: -webkit-box;
+  margin: 0;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.hotelRoomsBannerCardTitle {
+  margin: 0;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (max-width: 1600px) {
+  .hotelRoomsBannerCardImgBlock {
+    width: 620px;
+    height: 475px;
+  }
+}
+
+@media (max-width: 1439px) {
+  .hotelRoomsBannerCardImgBlock {
+    width: 100%;
+    height: 550px;
+    border-radius: 4px 4px 0 0;
+    z-index: 0;
+  }
+  .hotelRoomsBannerCardImg {
+    border-radius: 4px 4px 0 0;
+  }
+
+  .hotelRoomsBannerCard {
+    display: grid;
+    margin-top: 20px;
+  }
+
+  .hotelRoomsBannerCardTextBlock {
+    position: static;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    padding: 50px;
+    border-radius: 0 0 4px 4px;
+  }
+
+  .hotelRoomsBannerCardFootnote {
+    margin-top: 12px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .hotelRoomsBannerCardImgBlock {
+    height: 308px;
+  }
+  .hotelRoomsBannerCardTitle {
+    margin-bottom: 12px;
+  }
+  .hotelRoomsBannerCardButton {
+    margin-top: 20;
+  }
+  .hotelRoomsBannerCardTextBlock {
+    padding: 20px;
+  }
+  .hotelRoomsBannerCardDescription {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 479px) {
+  .hotelRoomsBannerCardImgBlock {
+    height: 200px;
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "components": {
+    "errorInfo": {
+      "returnMain": "Go back to the homepage"
+    }
+  },
+  "routes": {
+    "notFound": {
+      "metaTitle": "Page not found",
+      "title": "Page not found",
+      "errorMessage": "The page that you are looking for cannot be found"
+    },
+    "internalServerError": {
+      "title": "Server error"
+    }
+  }
+}

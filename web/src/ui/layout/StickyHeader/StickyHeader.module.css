@@ -1,0 +1,40 @@
+.stickyHeader {
+  background-color: var(--background-primary-color);
+  padding: 18px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid #f0ede7;
+  z-index: 10;
+  right: var(--scroll-left-padding, 0);
+}
+
+.stickyHeaderInner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerLogo {
+  margin-right: 60px;
+}
+
+.stickyHeaderBookingPanel {
+  margin: 0;
+  padding: 8px 18px 8px 18px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1023px) {
+  .stickyHeader {
+    padding: 14px 0;
+  }
+}
+
+@media (max-width: 479px) {
+  .stickyHeader {
+    padding: 10px 0;
+  }
+}

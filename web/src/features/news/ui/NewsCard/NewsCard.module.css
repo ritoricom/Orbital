@@ -1,0 +1,123 @@
+.newsCard {
+  --news-card-cover-height: 340px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-primary-color);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.02);
+  border-radius: var(--default-border-radius);
+}
+
+.newsCardLinkBox {
+  display: flex;
+  text-decoration: none;
+}
+
+.newsCardCoverContainer {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: var(--news-card-cover-height);
+  border-radius: var(--default-border-radius) 0;
+}
+
+.newsCardCover {
+  object-fit: cover;
+  border-radius: var(--default-border-radius) 0;
+}
+
+.newsCardCoverContent {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 50px;
+  z-index: 1;
+}
+
+.newsCardPublicationAt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px 12px;
+  background-color: var(--background-tertiary-color);
+  border-radius: var(--default-border-radius);
+}
+
+.newsCardPublicationDay {
+  margin: 0;
+  line-height: 1;
+}
+
+.newsCardPublicationMonth {
+  margin: 0;
+  text-transform: lowercase;
+}
+
+.newsCardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 28px;
+  height: calc(100% - var(--news-card-cover-height));
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.newsCardTitle {
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+@media (max-width: 1023px) {
+  .newsCardPublicationMonth {
+    font-size: 10px;
+  }
+
+  .newsCardPublicationDay {
+    font-size: 16px;
+  }
+
+  .newsCardContent {
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .newsCardContent {
+    align-items: center;
+    height: 100%;
+  }
+
+  .newsCardPublicationAt {
+    padding: 10px 15px 4px 10px;
+  }
+
+  .newsCardCoverContent {
+    padding: 20px 22px;
+  }
+
+  .newsCardButton {
+    width: 90%;
+  }
+
+  .newsCardTitle {
+    width: 100%;
+  }
+
+  .newsCardCoverContainer {
+    height: 120%;
+  }
+}
+
+@media (max-width: 480px) {
+  .newsCardCoverContainer {
+    height: 160%;
+  }
+
+  .newsCardPublicationAt {
+    padding: 4px 10px 4px 10px;
+  }
+}

@@ -1,0 +1,51 @@
+.roomPeculiarities {
+  max-width: 100%;
+  padding: 40px 50px 50px;
+}
+
+.roomPeculiaritiesTitle {
+  margin: 0 0 20px;
+}
+
+.roomPeculiaritiesList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 34px;
+  row-gap: 6px;
+  margin: 30px 0 0;
+  padding-left: 20px;
+}
+
+.roomPeculiaritiesListItem {
+  margin: 0;
+}
+
+@media (max-width: 1023px) {
+  .roomPeculiarities {
+    max-width: 100%;
+    padding: 0px 30px;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .roomPeculiaritiesList {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 16px;
+    row-gap: 4px;
+    margin: 4px 0 0;
+  }
+  .roomPeculiaritiesTitle {
+    margin: 0;
+  }
+}
+
+@media (max-width: 479px) {
+  .roomPeculiarities {
+    padding: 0px 20px;
+  }
+  .roomPeculiaritiesList {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .roomPeculiaritiesTitle {
+    margin: 0;
+  }
+}

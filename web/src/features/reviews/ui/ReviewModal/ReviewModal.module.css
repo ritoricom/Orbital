@@ -1,0 +1,26 @@
+.reviewModalDescription,
+.reviewModalAuthor,
+.reviewModalDate {
+  margin: 0;
+}
+
+.reviewModalBody {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 1023px) {
+  .reviewModalBody {
+    margin-top: 16px;
+    margin-bottom: 2px;
+  }
+  .reviewModalDescription {
+    font-size: 14px;
+  }
+
+  .reviewModalHeader {
+    margin-bottom: 12px;
+  }
+}

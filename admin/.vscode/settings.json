@@ -1,0 +1,16 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "cSpell.words": [
+    "Placemark",
+    "rosatom",
+    "tanstack",
+    "tiptap",
+    "toastify",
+    "Unauthenticate",
+    "Ymap",
+    "сomputed"
+  ]
+}

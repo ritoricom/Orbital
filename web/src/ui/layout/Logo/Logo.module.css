@@ -1,0 +1,31 @@
+/* root logo */
+.logo {
+  margin: 0;
+  font-size: 22px;
+  letter-spacing: 0.12em;
+  line-height: 140%;
+  cursor: pointer;
+}
+
+.logoColorSecondary {
+  color: var(--primary-white-color);
+}
+
+.logoColorSecondary:hover {
+  color: var(--primary-light-color);
+}
+
+.logoColorPrimary {
+  color: var(--primary-light-color);
+}
+
+.logoColorPrimary:hover {
+  color: var(--primary-dark-color);
+}
+
+@media (max-width: 479px) {
+  .logo {
+    font-size: 14px;
+    line-height: 100%;
+  }
+}

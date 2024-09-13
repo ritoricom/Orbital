@@ -1,0 +1,6 @@
+/* paper root */
+.paper {
+  background: var(--background-primary-color);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.02);
+  border-radius: 4px;
+}

@@ -1,0 +1,11 @@
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 50px;
+}
+
+@media (max-width: 1300px) {
+  .headerContent {
+    column-gap: 20px;
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "components": {
+    "errorInfo": {
+      "returnMain": "вернуться на главную"
+    }
+  },
+  "routes": {
+    "notFound": {
+      "metaTitle": "Страница не найдена",
+      "title": "Страница не найдена",
+      "errorMessage": "Страница, которую Вы ищете, не может быть найдена"
+    },
+    "internalServerError": {
+      "title": "Ошибка сервера"
+    }
+  }
+}

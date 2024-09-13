@@ -1,0 +1,18 @@
+{
+  "routes": {
+    "contacts": {
+      "metaTitle": "Contacts",
+      "title": "Contacts",
+      "titleForm": "Contacts",
+      "contactUs": "Contact us"
+    }
+  },
+  "ui": {
+    "contactsDisplay": {
+      "titleForm": "Contacts",
+      "address": "address of the hotel",
+      "e-mail": "e-mail",
+      "phone": "Phone number"
+    }
+  }
+}

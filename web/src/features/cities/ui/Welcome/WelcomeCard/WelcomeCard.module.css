@@ -1,0 +1,35 @@
+.welcomeCard {
+  background-color: #ffffff;
+  position: relative;
+  margin-top: 245px;
+  margin-bottom: 48px;
+  max-width: 805px;
+  margin-left: auto;
+  box-shadow: 0px 15px 49px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}
+
+.welcomeCardTextBlock {
+  padding: 60px 70px 0px 70px;
+}
+
+.welcomeCardTitle {
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.welcomeCardActions {
+  margin-top: 40px;
+  display: flex;
+  column-gap: 20px;
+}
+
+.welcomeCardImg {
+  position: relative;
+  height: 290px;
+  border-radius: 4px;
+}
+
+.welcomeImg {
+  border-radius: 4px;
+}

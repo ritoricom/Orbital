@@ -1,0 +1,8 @@
+.breadcrumbsSeparator {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--background-primary-color);
+}

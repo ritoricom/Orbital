@@ -1,0 +1,13 @@
+.promoTitle {
+  margin: 0;
+}
+
+.promoTitleHasWidthLimit {
+  max-width: 400px;
+}
+
+@media (max-width: 479px) {
+  .promoTitleHasWidthLimit {
+    max-width: 280px;
+  }
+}

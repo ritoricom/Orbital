@@ -1,0 +1,55 @@
+.aboutUs {
+  padding-top: 140px;
+  padding-bottom: 79px;
+  display: grid;
+  grid-template-columns: 569px 1fr;
+  gap: 28px;
+}
+
+.aboutUsDescription {
+  margin: 0;
+  margin-top: 16px;
+}
+
+.aboutUsTitle {
+  margin: 40px 0 0 0;
+}
+
+.aboutUsImg {
+  height: 423px;
+  width: 569px;
+  position: relative;
+  border-radius: 4px;
+}
+
+.aboutUsTextBlock {
+  margin: 0;
+}
+
+@media (max-width: 1023px) {
+  .aboutUs {
+    padding-top: 55px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+
+  .aboutUsTitle {
+    margin: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutUs {
+    padding: 42px 0 20px 0;
+  }
+
+  .aboutUsTextBlock {
+    padding: 0 20px 20px;
+  }
+
+  .aboutUsTitle {
+    font-size: 26px;
+  }
+}

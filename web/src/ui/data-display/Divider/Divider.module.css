@@ -1,0 +1,47 @@
+/* divider root */
+
+.divider {
+  border: none;
+  margin: 0;
+  list-style: none;
+}
+
+.dividerFlexItem {
+  align-self: stretch;
+  height: auto;
+}
+
+/* divider color */
+
+.dividerColorPrimary {
+  border-color: var(--secondary-normal-color);
+}
+
+.dividerColorSecondary {
+  border-color: var(--secondary-light-color);
+}
+
+/* divider orientation */
+
+.dividerOrientationHorizontal {
+  border-top-width: 2px;
+  border-top-style: solid;
+}
+
+.dividerOrientationVertical {
+  border-left-width: 2px;
+  border-left-style: solid;
+  flex-shrink: 0;
+  height: auto;
+  align-self: stretch;
+}
+
+@media (max-width: 1023px) {
+  .dividerOrientationHorizontal {
+    border-top-width: 1px;
+  }
+
+  .dividerOrientationVertical {
+    border-left-width: 1px;
+  }
+}

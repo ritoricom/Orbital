@@ -1,0 +1,17 @@
+import { API_URL } from "@/config/api";
+import { checkSuccess, getBearerAuthHeader } from "@/lib/api";
+import { throwErrorCtx } from "@/lib/error-ctx";
+import { noopFn } from "@/utils/noop";
+
+export interface DeleteUserPayload {
+  userID: string;
+}
+
+export const deleteUser = (payload: DeleteUserPayload): Promise<void> =>
+  fetch(`${API_URL}/api/admin/users/${payload.userID}`, {
+    method: "DELETE",
+    headers: getBearerAuthHeader(),
+  })
+    .then(checkSuccess)
+    .then(noopFn)
+    .catch(throwErrorCtx("Ошибка при удалении пользователя"));

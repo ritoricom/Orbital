@@ -1,0 +1,120 @@
+/* text variants */
+
+.textVariantNormalL {
+  font-size: 16px;
+  line-height: 180%;
+}
+.textVariantNormalM {
+  font-size: 14px;
+  line-height: 190%;
+}
+.textVariantNormalS {
+  font-size: 12px;
+  line-height: 170%;
+}
+.textVariantNormalXs {
+  font-size: 10px;
+  line-height: 170%;
+}
+.textVariantBoldL {
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 700;
+}
+.textVariantBoldM {
+  font-size: 14px;
+  line-height: 140%;
+  font-weight: 700;
+}
+.textVariantBoldS {
+  font-size: 12px;
+  line-height: 170%;
+  font-weight: 700;
+}
+.textVariantBoldXs {
+  font-size: 10px;
+  line-height: 170%;
+  font-weight: 700;
+}
+.textVariantUpL {
+  font-size: 16px;
+  line-height: 160%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.textVariantUpM {
+  font-size: 14px;
+  line-height: 170%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.textVariantUpS {
+  font-size: 12px;
+  line-height: 170%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.textVariantUpXs {
+  font-size: 10px;
+  line-height: 170%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.textColorPrimary {
+  color: var(--text-primary-color);
+}
+
+.textColorSecondary {
+  color: var(--text-secondary-color);
+}
+
+.textColorTertiary {
+  color: var(--text-tertiary-color);
+}
+
+.textColorQuaternary {
+  color: var(--text-quaternary-color);
+}
+
+.textColorQuinary {
+  color: var(--text-quinary-color);
+}
+
+.textColorWhite {
+  color: var(--background-primary-color);
+}
+
+@media (max-width: 1023px) {
+  .textVariantNormalL {
+    font-size: 16px;
+    line-height: 132%;
+  }
+  .textVariantBoldL,
+  .textVariantBoldM,
+  .textVariantBoldS,
+  .textVariantBoldXs {
+    font-size: 14px;
+    line-height: 140%;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 479px) {
+  .textVariantNormalL {
+    font-size: 16px;
+    line-height: 132%;
+  }
+  .textVariantBoldL,
+  .textVariantBoldM {
+    font-size: 14px;
+    line-height: 140%;
+    font-weight: 700;
+  }
+  .textVariantBoldS,
+  .textVariantBoldXs {
+    font-size: 12px;
+    line-height: 170%;
+    font-weight: 700;
+  }
+}

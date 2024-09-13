@@ -1,0 +1,38 @@
+.cityCardGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  margin: 0;
+  grid-auto-rows: 448px;
+  padding: 139px 0 160px;
+  list-style: none;
+}
+
+@media (max-width: 1439px) {
+  .cityCardGrid {
+    padding: 60px 0 80px;
+    grid-auto-rows: 320px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .cityCardGrid {
+    padding: 55px 0 60px;
+    grid-auto-rows: 203px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cityCardGrid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+    padding: 60px 0 80px;
+    grid-auto-rows: 320px;
+  }
+}
+
+@media (max-width: 479px) {
+  .cityCard {
+    grid-auto-rows: 280px;
+  }
+}

@@ -1,0 +1,17 @@
+.historyHotelCardYear {
+  margin: 0;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 130%;
+  color: var(--primary-light-color);
+}
+
+.historyHotelCardDescription {
+  margin: 0;
+  color: #696969;
+  padding-bottom: 90px;
+}
+
+.historyHotelCard {
+  max-width: 359px;
+}

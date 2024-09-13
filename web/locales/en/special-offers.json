@@ -1,0 +1,20 @@
+{
+  "routes": {
+    "specialOffer": {
+      "specialOffers": "Special offers"
+    },
+    "specialOffers": {
+      "metaTitle": "Special offers",
+      "title": "Special offers",
+      "loadMore": "show more"
+    }
+  },
+  "ui": {
+    "otherSpecialOffers": {
+      "title": "Other special offers"
+    },
+    "specialOfferCard": {
+      "more": "more"
+    }
+  }
+}

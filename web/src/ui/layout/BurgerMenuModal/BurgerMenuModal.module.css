@@ -1,0 +1,81 @@
+.burgerMenuModalHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+  margin-bottom: 30px;
+}
+.burgerMenuModalHeaderRight {
+  display: flex;
+  column-gap: 30px;
+}
+.burgerMenuModalCloseBtn {
+  display: flex;
+  align-self: center;
+  margin: auto 0;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: var(--text-primary-color);
+  padding: 0;
+}
+
+.burgerMenuModalBody {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.burgerMenuModalBodySocial {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.burgerMenuModalBodyPolitic {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  row-gap: 24px;
+}
+.burgerMenuModalSocialNetworks {
+  gap: 30px;
+}
+
+.burgerMenuBookingPanel {
+  margin: 0;
+  position: static;
+  padding: 13px 0;
+  font-size: 14px;
+}
+
+.burgerMenuModalBodyPoliticWithoutLang {
+  justify-content: flex-end;
+}
+
+.burgerMenuModalSocialAndSearch{
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 479px) {
+  .burgerMenuModalHeader {
+    padding: 24px 0;
+    margin-bottom: 16px;
+  }
+  .burgerMenuModalBody {
+    display: block;
+  }
+  .burgerMenuModalBodySocial {
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    margin-top: 30px;
+  }
+  .burgerMenuModalBodyPolitic {
+    align-items: flex-start;
+  }
+  .burgerMenuBookingPanel {
+    padding: 12px 0;
+    font-size: 12px;
+  }
+}

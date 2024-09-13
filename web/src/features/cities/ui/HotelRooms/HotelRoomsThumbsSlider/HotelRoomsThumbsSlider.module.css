@@ -1,0 +1,14 @@
+.hotelRoomsThumbsSliderArrowPrev {
+  left: -88px;
+}
+
+.hotelRoomsThumbsSliderArrowNext {
+  right: -88px;
+}
+
+@media (max-width: 1599px) {
+  .hotelRoomsThumbsSliderArrowPrev,
+  .hotelRoomsThumbsSliderArrowNext {
+    display: none;
+  }
+}

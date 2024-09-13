@@ -1,0 +1,51 @@
+.welcome {
+  position: relative;
+  padding-bottom: 100px;
+  overflow: hidden;
+}
+
+.welcomeMapImg {
+  object-fit: cover;
+  z-index: 0;
+}
+
+.welcomeContainer {
+  display: grid;
+}
+
+.welcomeMapWrapperImg {
+  height: 1080px;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+@media (max-width: 1300px) {
+  .welcome {
+    padding: 0;
+    height: 700px;
+  }
+  .welcomeMapWrapperImg {
+    position: relative;
+    height: 1050px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .welcome {
+    height: 588px;
+  }
+  .welcomeMapWrapperImg {
+    height: 800px;
+  }
+}
+
+@media (max-width: 480px) {
+  .welcome {
+    height: 400px;
+  }
+  .welcomeMapWrapperImg {
+    max-height: 500px;
+  }
+}

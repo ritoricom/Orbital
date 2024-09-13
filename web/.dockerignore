@@ -1,0 +1,15 @@
+# docker
+Dockerfile
+.dockerignore
+
+# deps
+node_modules
+
+# build
+build
+
+# next
+.next
+
+# git
+.git

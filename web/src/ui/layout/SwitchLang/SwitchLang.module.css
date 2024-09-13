@@ -1,0 +1,14 @@
+.switchLang {
+  display: flex;
+  gap: 15px;
+}
+
+.switchLangDividerLight {
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.switchLangDividerDark {
+  border-width: 1px;
+  border-color: var(--text-quinary-color);
+}

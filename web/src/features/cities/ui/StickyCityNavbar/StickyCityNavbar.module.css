@@ -1,0 +1,11 @@
+.stickyCityNavbarInner {
+  display: flex;
+  justify-content: center;
+  column-gap: 60px;
+}
+
+@media (max-width: 1439px) {
+  .stickyCityNavbarInner {
+    column-gap: 30px;
+  }
+}

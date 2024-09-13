@@ -1,0 +1,13 @@
+.historyHotelInfo {
+  display: grid;
+  column-gap: 148px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.historyHotelInfoDescription {
+  grid-column: 2 / 4;
+}
+
+.historyHotelInfoTitle {
+  margin: 0;
+}

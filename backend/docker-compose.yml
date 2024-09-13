@@ -1,0 +1,70 @@
+version: '3.4'
+
+services:
+  api:
+    image: hotel-orbital:api
+    container_name: api
+    restart: always
+    ports:
+      - "5271:80"
+    build:
+      context: .
+      dockerfile: src/Hotel.Orbital.Api/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ConnectionStrings__DefaultConnection: "Host=db;Port=5432;Username=${DB_USERNAME?err};Password=${DB_PASSWORD?err}"
+      BnovoOptions__Username: ${BNOVO_USERNAME?err}
+      BnovoOptions__Password: ${BNOVO_PASSWORD?err}
+      MailOptions__From: ${MAIL_USERNAME?err}
+      MailOptions__UserName: ${MAIL_USERNAME?err}
+      MailOptions__Password: ${MAIL_PASSWORD?err}
+      AuthOptions__JwtKey: ${JWT_KEY?err}
+      UserSeedParameters__Email: ${ADMIN_EMAIL?err}
+      UserSeedParameters__Password: ${ADMIN_PASSWORD?err}
+      WebDavOptions__Username: ${WEBDAV_USERNAME?err}
+      WebDavOptions__Password: ${WEBDAV_PASSWORD?err}
+    networks:
+      - db_network
+      - webdav_network
+    depends_on:
+      - db
+      - webdav
+
+  db:
+    image: postgres
+    container_name: db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${DB_USERNAME?err}
+      POSTGRES_PASSWORD: ${DB_PASSWORD?err}
+      PGDATA: /var/lib/postgresql/data/pgdata
+    volumes:
+      - ./dbdata:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+    networks:
+      - db_network
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U ${DB_USERNAME}" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+      
+  webdav:
+    image: bytemark/webdav
+    container_name: webdav
+    restart: always
+    environment:
+      USERNAME: ${WEBDAV_USERNAME?err}
+      PASSWORD: ${WEBDAV_PASSWORD?err}
+    volumes:
+      - ./wddata:/var/lib/dav
+    networks:
+      - webdav_network
+
+networks:
+  db_network:
+    driver: bridge
+  webdav_network:
+    driver: bridge

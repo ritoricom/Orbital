@@ -1,0 +1,35 @@
+.hotelReviewsContainer {
+  padding-bottom: 92px;
+}
+
+.hotelReviewsTitle {
+  text-align: center;
+  margin: 42px 0px 52px;
+}
+
+.hotelReviewsDescription {
+  margin: 0;
+  margin-top: 16px;
+}
+
+@media (max-width: 1023px) {
+  .hotelReviewsContainer {
+    padding-right: 0;
+    padding-bottom: 60px;
+  }
+
+  .hotelReviewsTitle {
+    text-align: start;
+    margin: 0px 0px 30px;
+  }
+}
+
+@media (max-width: 479px) {
+  .hotelReviewsContainer {
+    padding-bottom: 40px;
+  }
+
+  .hotelReviewsTitle {
+    margin: 0px 0px 16px;
+  }
+}

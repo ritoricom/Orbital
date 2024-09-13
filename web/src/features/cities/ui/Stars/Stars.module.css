@@ -1,0 +1,12 @@
+.stars {
+    display: flex;
+    gap: 14px;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 480px){
+    .stars {
+        margin-bottom: 10px;
+        gap: 8px;
+    }
+}

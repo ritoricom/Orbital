@@ -1,0 +1,18 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "cSpell.words": [
+    "Bnovo",
+    "clsx",
+    "Dtos",
+    "hygen",
+    "rosatom",
+    "serde",
+    "Splide",
+    "splidejs",
+    "tanstack",
+    "traefik"
+  ]
+}

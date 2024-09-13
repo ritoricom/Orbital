@@ -1,0 +1,75 @@
+.errorInfo {
+  display: flex;
+  justify-content: center;
+  padding: 170px 0 285px;
+}
+
+.errorInfoHasReturnAction {
+  padding-bottom: 214px;
+}
+
+.errorInfoInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 574px;
+}
+
+.errorInfoStatusCode {
+  margin: 0;
+  font-weight: 800;
+  font-size: 300px;
+  line-height: 110%;
+  color: var(--text-tertiary-color);
+  text-align: center;
+}
+
+.errorInfoMessage {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  color: var(--text-secondary-color);
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.errorInfoButtonReturn {
+  margin-top: 50px;
+  max-width: 100%;
+  width: 329px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1023px) {
+  .errorInfo {
+    padding: 85px 0 60px;
+  }
+
+  .errorInfoButtonReturn {
+    margin-top: 18px;
+    width: 235px;
+  }
+
+  .errorInfoStatusCode {
+    font-size: 200px;
+  }
+
+  .errorInfoMessage {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 479px) {
+  .errorInfoStatusCode {
+    font-size: 100px;
+  }
+
+  .errorInfo {
+    padding-top: 62px;
+  }
+
+  .errorInfoButtonReturn {
+    margin-top: 16px;
+  }
+}

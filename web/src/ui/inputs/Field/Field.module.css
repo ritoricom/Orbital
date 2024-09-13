@@ -1,0 +1,26 @@
+.field {
+  margin-bottom: 26.6px;
+}
+
+/* label */
+.fieldLabel {
+  color: var(--text-tertiary-color);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 170%;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.fieldLabelDisabled {
+  color: var(--text-quinary-color);
+}
+.fieldLabelError {
+  color: var(--error-color);
+}
+
+/* error */
+.fieldError {
+  color: var(--error-color);
+  font-size: 14px;
+  line-height: 190%;
+}

@@ -1,0 +1,16 @@
+.cityLinksContainer {
+  display: flex;
+  column-gap: 18px;
+  align-items: flex-start;
+  margin: auto 0;
+}
+
+.cityLinksLink {
+  margin: 0;
+}
+
+@media (max-width: 1060px) {
+  .cityLinksContainer {
+    column-gap: 9px;
+  }
+}

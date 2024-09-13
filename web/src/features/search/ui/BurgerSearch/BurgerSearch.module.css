@@ -1,0 +1,21 @@
+.burgerSearchButton{
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: auto 0;
+  color: black;
+  margin-top: 18px;
+  gap: 4px
+}
+
+.burgerSearchText{
+  margin: auto 0;
+  font-weight: 700;
+}
+
+.burgerSearchIcon{
+  margin: auto 0;
+}

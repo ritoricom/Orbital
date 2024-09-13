@@ -1,0 +1,15 @@
+.searchModalContent{
+  min-height: 55px;
+  max-height: calc(100% - 122px);
+  overflow-y: auto;
+  padding-bottom: 40px;
+  padding-top: 16px;
+}
+
+.searchModalContentTitle{
+  margin: 10px 16px;
+}
+
+.searchModalContentDivider{
+  margin: 0 16px;
+}

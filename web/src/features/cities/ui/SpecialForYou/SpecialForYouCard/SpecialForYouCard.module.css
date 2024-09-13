@@ -1,0 +1,53 @@
+.specialForYouCard {
+  position: relative;
+  display: flex;
+  text-decoration: none;
+  min-height: 508px;
+  border-radius: 4px;
+}
+
+.specialForYouCardOverlay {
+  border-radius: 4px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(67, 67, 67, 0) 0%,
+    rgba(67, 67, 67, 0.5) 70.98%
+  );
+
+  z-index: 0;
+}
+
+.specialForYouCard:hover .specialForYouCardOverlay {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    linear-gradient(
+      180deg,
+      rgba(67, 67, 67, 0) 0%,
+      rgba(67, 67, 67, 0.5) 70.98%
+    );
+  border-radius: 4px;
+}
+
+.specialForYouCardImg {
+  object-fit: cover;
+  border-radius: 4px;
+  z-index: 0;
+}
+
+.specialForYouCardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-grow: 1;
+  padding: 40px;
+  z-index: 1;
+  border-radius: 4px;
+}
+
+.specialForYouCardName {
+  margin: 0;
+}

@@ -1,0 +1,20 @@
+{
+  "routes": {
+    "newsArticle": {
+      "news": "News"
+    },
+    "news": {
+      "metaTitle": "News",
+      "title": "News",
+      "loadMore": "show more"
+    }
+  },
+  "ui": {
+    "newsCard": {
+      "more": "Read more"
+    },
+    "otherNews": {
+      "title": "Other news"
+    }
+  }
+}

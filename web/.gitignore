@@ -1,0 +1,42 @@
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ide
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea
+
+# deps
+node_modules
+
+# testing
+coverage
+
+# other package manager lock files
+package-lock.json
+yarn.lock
+
+# bun
+bun.lockb
+.bin
+
+# next.js
+.next/
+out/
+
+# build
+build
+public/robots.txt
+public/*.xml
+!public/browserconfig.xml
+
+# env
+.env
+
+# misc
+.DS_Store
+*.pem

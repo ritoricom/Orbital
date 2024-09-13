@@ -1,0 +1,22 @@
+.arrowButton {
+  border: 0;
+  border-radius: 50%;
+}
+
+.arrowButton:hover {
+  background-color: var(--secondary-dark-color);
+}
+
+.arrowButtonSizeSmall {
+  height: 40px;
+  width: 40px;
+  padding: 9px;
+  background-color: var(--primary-white-color);
+}
+
+.arrowButtonSizeLarge {
+  height: 60px;
+  width: 60px;
+  padding: 19px;
+  background-color: var(--secondary-normal-color);
+}

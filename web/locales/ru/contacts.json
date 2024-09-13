@@ -1,0 +1,18 @@
+{
+  "routes": {
+    "contacts": {
+      "metaTitle": "Контакты",
+      "title": "Контакты",
+      "titleForm": "Контакты",
+      "contactUs": "Свяжитесь с нами"
+    }
+  },
+  "ui": {
+    "contactsDisplay": {
+      "titleForm": "Контакты",
+      "address": "адрес гостиницы",
+      "e-mail": "e-mail",
+      "phone": "телефон"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.specialOffersInner {
+  padding: 127px 0 160px;
+}
+
+.specialOffersLoadMoreBtn {
+  margin-top: 40px;
+}
+
+@media (max-width: 1023px) {
+  .specialOffersInner {
+    padding: 55px 0 60px;
+  }
+
+  .specialOffersLoadMoreBtn {
+    margin-top: 30px;
+  }
+}

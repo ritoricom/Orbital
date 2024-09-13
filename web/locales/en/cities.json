@@ -1,0 +1,457 @@
+{
+  "routes": {
+    "chooseCity": {
+      "metaTitle": "The choice of the city",
+      "title": "Hotel «Orbital»",
+      "subtitle": "Network of hotels of the Rosatom Technical Academy",
+      "spb": "St. Petersburg",
+      "obn": "Obninsk",
+      "nvz": "Novovoronezh"
+    },
+    "mainSpb": {
+      "metaTitle": "Home St. Petersburg",
+      "title": "Hotel «Orbital»",
+      "subtitle": "Network of hotels of the Rosatom Technical Academy",
+      "welcome": {
+        "text1": "Welcome to the official website of the orbit hotel in St. Petersburg. Our hotel has passed the complete renovation of rooms in 2021-2022",
+        "text2": "The Hotel «Orbital» is located 15 minutes from the historical center of the city. Nearby is the entire city infrastructure (Pionerskaya metro station, shops, pharmacies, public transport stop).",
+        "text3": "All numbers are equipped with comfortable modern furniture, refrigerator and plasma TV, and its own bathroom with a shower cabin is equipped with free toilet and cosmetics.",
+        "text4": "Our hotel is a relaxing rest on a soft bed, snow -white underwear, rooms of various categories with all amenities, caring and warm staff, the presence of a spacious cafe, low cost - all this for you!",
+        "text5": "We try to take into account all the wishes of our guests, so there is a free Wi-Fi throughout the hotel throughout the hotel, and the guests who came to us by car are free guarded parking."
+      },
+      "historyHotel": {
+        "description": "The Orbital Hotel is a division of the ANO DPO “Technical Academy of Rosatom” - an organization specializing in additional professional education, professional retraining of managers and experts of nuclear energy and industry, and certification of personnel.",
+        "first": "The hotel of the Central Institute for Continuing Qualification of the State Corporation \"Rosatom\" (TsIPK) - was built in 1985 specifically for the accommodation of guests, specialists, students of the Ministry of Atomic Industry.",
+        "second": "In 2017, in connection with the reorganization of the Central Institute for Continuing Qualification in the ANO DPO “Technical Academy of Rosatom”, the hotel changed its name and became called the Orbital Hotel.",
+        "third": "In 2021-2022, a complete renovation of rooms was held at the Orbital Hotel. We also repaired halls, updated furniture and plumbing, installed individual air conditioners in rooms, and for your safety - an electronic lock system."
+      },
+      "specialForYou": {
+        "description": "For our regular customers, for participants and representatives of group and sports events, we offer special rates for accommodation."
+      },
+      "callMeBack": {
+        "description": "Arriving in St. Petersburg on a business trip, a scientific conference or on a friendly visit, here you will find a full and high-quality service."
+      }
+    },
+    "mainObn": {
+      "metaTitle": "Home Obninsk",
+      "title": "Hotel «Orbital»",
+      "subtitle": "Network of hotels of the Rosatom Technical Academy",
+      "welcome": {
+        "text1": "Welcome to the official website of the Orbitic Hotel, Obninsk. We conducted renovation in 2019-2020. - Halls and corridors repaired, updated furniture and plumbing, installed individual air conditioners in rooms.",
+        "text2": "The updated room of numbers has both a vacation and work: comfortable beds, LED lamps with soft scattering light, Blackout curtains and a convenient working area with a safe.",
+        "text3": "All numbers are equipped with comfortable modern furniture, refrigerator and plasma TV, and its own bathroom with a shower cabin is equipped with free toilet and cosmetics.",
+        "text4": "Free Wi-Fi operates throughout the hotel, and the guests who came to us by car are free guarded parking.",
+        "text5": "Free Wi-Fi operates throughout the hotel, and the guests who came to us by car are free guarded parking"
+      },
+      "historyHotel": {
+        "description": "The Orbital Hotel is a division of the ANO DPO “Technical Academy of Rosatom” - an organization specializing in additional professional education, professional retraining of managers and experts of nuclear energy and industry, and certification of personnel.",
+        "first": "The hotel of the Central Institute for Advanced training of the Rosatom State Corporation (TsIPK) was built in 1975 specifically for the accommodation of guests, specialists, students of the Rosatom State Corporation and became the largest hotel in the Kaluga region.",
+        "second": "In 2017, in connection with the reorganization of the Central Institute for Continuing Qualification at the “Technical Academy of Rosatom”, the hotel changed its name and became called the Orbital Hotel.",
+        "third": "In 2020, the hotel conducted a renovation of the license plate and public zones. In addition, air conditioners, as well as an electronic lock system, were installed in all rooms. Cosmetic repairs were carried out in the halls of the hotel."
+      },
+      "specialForYou": {
+        "description": "For our regular customers, for participants and representatives of group and sports events, we offer special rates for accommodation."
+      },
+      "callMeBack": {
+        "description": "Arriving in Obninsk on a business trip, at a scientific conference or on a friendly visit, here you will find a full and high -quality service."
+      }
+    },
+    "mainNvz": {
+      "metaTitle": "Home Novovoronezh",
+      "title": "Hotel «Orbital»",
+      "subtitle": "Network of hotels of the Rosatom Technical Academy",
+      "welcome": {
+        "text1": "Welcome to the official website of the orbit hotel in St. Petersburg. Our hotel has passed the complete renovation of rooms in 2021-2022",
+        "text2": "The Hotel «Orbital» is located 15 minutes from the historical center of the city. Nearby is the entire city infrastructure (Pionerskaya metro station, shops, pharmacies, public transport stop).",
+        "text3": "All numbers are equipped with comfortable modern furniture, refrigerator and plasma TV, and its own bathroom with a shower cabin is equipped with free toilet and cosmetics.",
+        "text4": "Do you need conferences and business meetings? The hotel has a room with a capacity of up to 70 people for conferences of various profiles.",
+        "text5": "Also for you are 2 professional tables for playing Russian billiards, soft muffled light, climate maintenance system, having a bar with a full range of drinks, upholstered and comfortable furniture.",
+        "text6": "For those who want to spend time not only pleasant, but also useful we have a pool, a sauna, a Turkish bathhouse and a beautifully equipped gym.",
+        "text7": "And for the guests traveling by car, there is a free guarded parking."
+      },
+      "historyHotel": {
+        "description": "The Orbital Hotel is a division of the ANO DPO “Technical Academy of Rosatom” - an organization specializing in additional professional education, professional retraining of managers and experts of nuclear energy and industry, and certification of personnel.",
+        "first": "The first building of the hotel with the name \"Don\" for 100 seats was opened in 1960 on Lenin Street. Coming builders and specialists of the All -Union Komsomol Construction Construction Construction of the All -Union Komsomol Building were placed there. In 1980, the hotel moved to a new modern eight -story building for 147 rooms, which was built on Kurchatov Street.",
+        "second": "In 2014, renovation was carried out. The room fund amounted to 108 rooms, the hotel changed the interior, comfortable recreation areas were added, the rooms became spacious, which meets the modern requirement of high service. From 2014 to 2020, the hotel was called the Cherry Orchard.",
+        "third": "In 2020, the hotel joined the network of modern hotels in the Rosatom Technical Academy with the symbolic and beautiful name \"Orbital\"."
+      },
+      "specialForYou": {
+        "description": "For our regular customers, for participants and representatives of group and sports events, we offer special rates for accommodation."
+      },
+      "callMeBack": {
+        "description": "Arriving in Novovoronezh on a business trip, at a scientific conference or on a friendly visit, here you will find a full -fledged and high -quality service."
+      }
+    },
+    "aboutSpb": {
+      "metaTitle": "Hotel St. Petersburg",
+      "title": "Hotel",
+      "aboutUs": {
+        "text1": "Welcome to the official website of the orbit hotel in St. Petersburg. Our hotel passed the complete renovation of rooms in 2021-2022.",
+        "text2": "The Hotel «Orbital» is located 15 minutes from the historical center of the city. Nearby is the entire city infrastructure (Pionerskaya metro station, shops, pharmacies, public transport stop)."
+      },
+      "aboutCafe": {
+        "text1": "Our hotel is a relaxing rest on a soft bed, snow -white underwear, numbers of various categories with all amenities, caring and warm staff, the presence of a spacious cafe, low cost - all this for you!",
+        "text2": "We try to take into account all the wishes of our guests, so there is a free Wi-Fi throughout the hotel throughout the hotel, and the guests who came to us by car are free guarded parking."
+      }
+    },
+    "aboutObn": {
+      "metaTitle": "Hotel Obninsk",
+      "title": "Hotel",
+      "aboutUs": {
+        "text1": "Welcome to the official website of the Orbitic Hotel, Obninsk. We conducted renovation in 2019-2020. - Halls and corridors repaired, updated furniture and plumbing, installed individual air conditioners in rooms."
+      },
+      "aboutCafe": {
+        "text1": "The updated room of numbers has both a vacation and work: comfortable beds, LED lamps with soft scattering light, Blackout curtains and a convenient working area with a safe.",
+        "text2": "All numbers are equipped with comfortable modern furniture, refrigerator and plasma TV, and its own bathroom with a shower cabin is equipped with free toilet and cosmetics.",
+        "text3": "Free Wi-Fi operates throughout the hotel, and the guests who came to us by car are free guarded parking."
+      }
+    },
+    "aboutNvz": {
+      "metaTitle": "Hotel Novovoronezh",
+      "title": "Hotel",
+      "aboutUs": {
+        "text1": "The Hotel «Orbital» is located in the picturesque place of Novovoronezh, from the windows there is a view of the park and a cozy city of nuclear workers, drowning in greenery.",
+        "text2": "Neutral color scheme in the interior, original street lighting, an abundance of copyright elements of decor - all this makes the hotel complex unique. It seems that you are not in an industrial city, but in a cozy resort place."
+      },
+      "aboutCafe": {
+        "text1": "Here you can hold a wedding, conference, or any other solemn event. The restaurant hall is designed for 99 seats, perfect for banquets and weddings. The VIP room with a separate exit to the summer terrace can accommodate up to 30 people.",
+        "text2": "Do you need conferences and business meetings? The hotel has a room with a capacity of up to 70 people for conferences of various profiles.",
+        "text3": "Also for you are 2 professional tables for playing Russian billiards, soft muffled light, climate maintenance system, having a bar with a full range of drinks, upholstered and comfortable furniture.",
+        "text4": "For those who want to spend time not only pleasant, but also useful we have a pool, a sauna, a Turkish bathhouse and a beautifully equipped gym.",
+        "text5": "And for the guests traveling by car, there is a free guarded parking."
+      }
+    },
+    "hotelRulesSpb": {
+      "metaTitle": "Terms and Conditions of Stay at the Orbital Hotel",
+      "title": "Terms and Conditions of Stay at the Orbital Hotel",
+      "toMain": "Home",
+      "rules" : {
+        "title": "Terms and Conditions of Stay at the Orbital Hotel",
+        "text": "This document defines the internal rules, which are obligatory for all the guests during their stay at the Orbital Hotel (hereinafter referred to as the Hotel).",
+        "listTitle1": "General rules",
+        "listTitle2": "The rules of services provision and check-in at the hotel",
+        "listTitle3": "Hotel visiting rules",
+        "listTitle4": "Rights of hotel guests",
+        "listTitle5": "Duties and responsibilities of hotel guests",
+        "listTitle6": "Rights of the hotel administration",
+        "listTitle7": "Duties and responsibilities of the hotel administration",
+        "listTitle8": "Responsibility for violation of these Rules",
+        "listItem1-1": "This document is a local regulation, and its fulfillment is mandatory for all hotel guests.",
+        "listItem1-2": "The hotel rooms are intended for temporary accommodation of workers and nuclear industry specialists during the period of their professional training at the Academy, to the participants of conferences and seminars, peopleon business trips, representatives of third-party organizations and other guests, as well as foreign citizens.",
+        "listItem1-3": "You can find this document in the hotel at the reception desk and in the hotel rooms.",
+        "listItem1-4": "The hotel provides free services, namely: repairs of identified damages appeared through no fault of the guest; an ambulance call; use of a medical kit; delivery of correspondence to your room (upon receipt); wake-up call; providing boiling hot water; daily room cleaning; bed linen change (once every three days); daily change of towels. The hotel also provides paid services in accordance with the approved price list.",
+        "listItem1-5": "The hotel is not responsible for the work of city utilities (power cut, water supply cut, central heating cut etc.). In case of such situations, the hotel administration is always ready to solve the problem in favor of the client.",
+        "listItem1-6": "If forgotten things are found, the hotel administration takes steps to return them to the owner.",
+        "listItem1-7": "In order to ensure security, video surveillance is carried out in the hotel premises (with the exception of clients' personal rooms and toilets).",
+        "listItem1-8": "The Guest feedback book is located at the Guest's Info. Claims and complaints are consideredby the hotel administration in a timely manner, in accordance with the current legislation of theRussian Federation.",
+        "listItem1-9": "The minimum duration of stay in the hotel is not less than 24 hours, the duration of stay more than 24 hours for the Russian Federation citizen is not specified, as for foreign citizens, it must be in accordance with the legislation of the Russian Federation on the stay of foreign citizens in the territory of the Russian Federation.",
+        "listItem2-1": "The hotel provides accommodation services when the guest presents one of the following documents:",
+        "listItem2-1-unordered-list-item-1": "passport of a citizen of the Russian Federation, which certifies the identity of a citizen of the Russian Federation on the territory of the Russian Federation;",
+        "listItem2-1-unordered-list-item-2": "passport of a citizen of the USSR, which certifies the identity of a citizen o the Russian Federation, until it is replaced within the scheduled period with a passport of a citizen of the Russian Federation;",
+        "listItem2-1-unordered-list-item-3": "temporary identity card;",
+        "listItem2-1-unordered-list-item-4": "birth certificates - for children under the age of 14;",
+        "listItem2-1-unordered-list-item-5": "passport of a citizen of the Russian Federation, which certifies the identity of a citizen of the Russian Federation outside the Russian Federation, for a person permanently residing outside the Russian Federation;",
+        "listItem2-1-unordered-list-item-6": "passport of a foreign citizen or other document established by federal law or recognized in accordance with an international treaty of the Russian Federation as a document certifying the identity of a foreign citizen;",
+        "listItem2-1-unordered-list-item-7": "temporary identity card of a citizen of the Russian Federation;",
+        "listItem2-1-unordered-list-item-8": "document issued by a foreign state and recognized in accordance with an international treaty of the Russian Federation as a document certifying the identity of a foreign citizen;",
+        "listItem2-1-unordered-list-item-9": "document issued by a foreign state and recognized in accordance with an international treaty of the Russian Federation as a document certifying the identity of a foreign citizen;",
+        "listItem2-1-unordered-list-item-10": "document issued by a foreign state and recognized in accordance with an international treaty of the Russian Federation as a document certifying the identity of a stateless person;",
+        "listItem2-1-unordered-list-item-11": "temporary residence permit for a stateless person;",
+        "listItem2-1-unordered-list-item-12": "residence permit of a stateless person;",
+        "listItem2-1-unordered-list-item-13": "migration card and a passport - for foreign citizens.",
+        "listItem2-2": "Check-in of children under the age of 14 is carried out on the basis of documents certifying the identity of the parents (adoptive parents, guardians),the accompanying person/people, provided that they presenta written consent (one of them), as well as the birth certificates of these children.",
+        "listItem2-3": "Check-in of minor citizens who have reached the age of 14, in the absence of legal representatives accompanying them, is carried out on the basis of identity documents of these minors and the written consent of the legal representatives (one of them).",
+        "listItem2-4": "Check-in of the Academy employees is carried out on the basis of employment contracts concluded with the Academy and an application for accommodation signed by the rector or the other authorized person.",
+        "listItem2-5": "The hotel administration concludes contracts for rooms booking by drawing up a document signed by both parties, as well as by accepting an application from the client by means of mail service, emails and other.",
+        "listItem2-6": "The following information must be indicated in the application for rooms booking (places in rooms):",
+        "listItem2-6-unordered-list-item-1": "details of the guest's organization;",
+        "listItem2-6-unordered-list-item-2": "total quantity and full names of the guest;",
+        "listItem2-6-unordered-list-item-3": "time and date of the arrival and the expected departure;",
+        "listItem2-6-unordered-list-item-4": "desired number of rooms and their categories;",
+        "listItem2-6-unordered-list-item-5": "type of payment;",
+        "listItem2-6-unordered-list-item-6": "payment guarantees and penalty payment guarantees in case of “no-show”.",
+        "listItem2-7": "The hotel administration has the right to decline booking if there are no vacant rooms or places in the room on the date specified in the application.",
+        "listItem2-8": "The guest may cancel the booking without any penalties, provided that the guest informs the hotel administration about the booking cancellation not later than 5 days (for group bookings) and not later than 3 days for individual bookings, unless otherwise specified in the contract.",
+        "listItem2-9": "If the guests late for check-in or in case of “no-show”, the guest is charged a fee, but not more than a day of a room rate.",
+        "listItem2-10": "Upon the check-in, the guest:",
+        "listItem2-10-unordered-list-item-1": "fills out a questionnaire, which confirms the reliability of information about himself, agreement with the rules of residence and fire safety and consent to the processing of personal data.",
+        "listItem2-10-unordered-list-item-2": "gets acquainted with the ”Instruction about personal and public safety” (Appendix # 1).",
+        "listItem2-11": "The duration of stay in the hotel is determined on the basis of the bookings received.",
+        "listItem2-12": "After the expiry of the agreed period, the resident is obliged to vacate the room by 12.00.",
+        "listItem2-13": "If you wish to extend the period of stay, the Guest is obliged to inform the hotel administrator not later than 2 (two) hours before the expiration of the paid period.",
+        "listItem2-14": "Payment for hotel accommodation is made on the day of check-in according to the rates approved by the rector of the Academy or other authorized personnel.",
+        "listItem2-15": "Payment for hotel accommodation is charged in accordance with the checkout time - from 2.00 p.m. local time. If the guest checks-in before the estimated time, the guest is charged as follows:",
+        "listItem2-15-unordered-list-item-1": "estimated time from 02:00 a.m. to 12:00 a.m–half of the daily room rate is charged, considering the selected meal rate;",
+        "listItem2-15-unordered-list-item-2": "estimated time until 02:00 a.m.- the daily room rate is charged, considering the selected meal rate;",
+        "listItem2-16": "In case of a delay in the departure, the guest is charged in as follows:",
+        "listItem2-16-unordered-list-item-1": "up to 12 hours after checkout time - half of the daily room rate is charged, considering the selected meal rate;",
+        "listItem2-16-unordered-list-item-2": "from 12 to 24 hours after checkout time - the daily room rate is charged, considering the selected meal rate;",
+        "listItem2-17": "The certain categories of the guests (representatives of organizations and others) can be granted with the discounts (up to to 20%), in accordance with the Hotel discount policy.",
+        "listItem2-18": "An additional bed may be provided at the guest’s requested, if available.",
+        "listItem2-19": "Payment for hotel services is made in Russian rubles.",
+        "listItem2-20": "We accept cash, bank cards, bank wire transfer.",
+        "listItem3-1": "The hotel works 24 hours a day.",
+        "listItem3-2": "Unauthorized people are allowed to visit the hotel guests only after the permission of the administrator on duty upon presentation of an identity document with a record in the visitors' register and with the permission from the guests. They are allowed to stay at the hotel from 07:00 a.m. to 11:00 p.m.",
+        "listItem3-3": "The entry of the employees of the third-party organizations to the rented offices in the hotel and their visitors is carried out by entry passes of the authorized form or on the basis of a list signed by the head of the internal security department or the other authorized person.",
+        "listItem3-4": "The control over the timely departure of the invited person and their compliance with these Rules is the responsibility of the inviting guest and the duty administrator.",
+        "listItem3-5": "The entry of the visitors to the offices rented by the third-party organizations is carried out upon presentation of an identity document, with fixation in the visitor register.",
+        "listItem4-1": "Hotel guests have the right:",
+        "listItem4-1-unordered-list-item-1": "to live in the booked room, in case of these Rules fulfillment;",
+        "listItem4-1-unordered-list-item-2": "to change the booked room with the consent of the hotel administration;",
+        "listItem4-1-unordered-list-item-3": "to use bedding;",
+        "listItem4-1-unordered-list-item-4": "to use the premises of cultural and domestic purposes, equipment, hotel inventory;",
+        "listItem4-1-unordered-list-item-5": "to contact the administration with requests for repair, replacement of equipment and inventory that is out of order through no fault of the guest;",
+        "listItem4-1-unordered-list-item-6": "to use household appliances in compliance with safety regulations and fire safety rules.",
+        "listItem5-1": "The guests are required:",
+        "listItem5-1-unordered-list-item-1": "to present their ID upon receipt of the room keys;",
+        "listItem5-1-unordered-list-item-2": "to follow with the established hotel rules;",
+        "listItem5-1-unordered-list-item-3": "to observe and strictly follow fire safety and sanitary regulations;",
+        "listItem5-1-unordered-list-item-4": "in case of an emergency, act in accordance with the instructions of the Orbital Hotel on personal and public safety;",
+        "listItem5-1-unordered-list-item-5": "take good care of the property and equipment of the hotel, observe cleanliness and order;",
+        "listItem5-1-unordered-list-item-6": "to observe silence after 11.00 p.m., not to disturb other guests. From 11.00 p.m. to 07.00 a.m., the use of TVs, radios, tape recorders and other loud-speaking devices is allowed only if the sound is reduced to a degree that does not disturb the rest of other guests;",
+        "listItem5-1-unordered-list-item-7": "when leaving the room, close the taps, windows, turn off electrical appliances, close the room and hand over the key to the receptionist;",
+        "listItem5-1-unordered-list-item-8": "to compensate the damage in case of loss or damage of the hotel property (committed personally or by an invited person), in accordance with applicable law;",
+        "listItem5-1-unordered-list-item-9": "to comply with the norms of behavior in public places;",
+        "listItem5-1-unordered-list-item-10": "not to interfere with the proper performance of the duties by the hotel employees;",
+        "listItem5-1-unordered-list-item-11": "to follow the order of priority when placing the booking;",
+        "listItem5-1-unordered-list-item-12": "in case of emergencies, strictly follow the instructions of the hotel employees;",
+        "listItem5-1-unordered-list-item-13": "upon leaving the hotel, the guest must make a full payment for the services provided and hand over the room key.",
+        "listItem5-2": "Residents must not:",
+        "listItem5-2-unordered-list-item-1": "leave unauthorized people in the room, as well as give them the room key;",
+        "listItem5-2-unordered-list-item-2": "store bulky things;",
+        "listItem5-2-unordered-list-item-3": "bring and store explosive and flammable, toxic, caustic, poisonous, narcotic substances and materials, firearms and cold-arms and other dangerous items that pose a threat to the health and life of the others;",
+        "listItem5-2-unordered-list-item-4": "use pyrotechnics (fireworks, sparklers, firecrackers, etc.);",
+        "listItem5-2-unordered-list-item-5": "keep in the room animals, insects, birds etc.;",
+        "listItem5-2-unordered-list-item-6": "throw garbage and other objects out of windows;",
+        "listItem5-2-unordered-list-item-7": "use electric heating devices (boilers, electric kettles, electric stoves, etc.) in the hotel room and in common areas, with the exception of devices provided by the hotel;",
+        "listItem5-2-unordered-list-item-8": "use open fire;",
+        "listItem5-2-unordered-list-item-9": "exchange or sell things on the territory of public areas of the hotel;",
+        "listItem5-2-unordered-list-item-10": "transfer, rearrange furniture, hotel equipment from rooms and halls;",
+        "listItem5-2-unordered-list-item-11": "drink alcohol, as well as to eat food in the public areas of the hotel (corridors, halls), with the exception of dining areas;",
+        "listItem5-2-unordered-list-item-12": "smoke in the room, halls, corridors of the hotel;",
+        "listItem5-2-unordered-list-item-13": "commit deliberate actions that threaten their own life and health, as well as the life and health of others;",
+        "listItem5-2-unordered-list-item-14": "gamble in the public areas of the hotel;",
+        "listItem5-2-unordered-list-item-15": "litter public areas.",
+        "listItem5-3": "It is forbidden to access and stay in the hotel for people in a state of alcoholic, drug or toxic intoxication, with aggressive behavior, in dirty clothes, in beach clothes, young children unaccompanied by adults.",
+        "listItem5-4": "Parents and accompanying people are responsible for the behavior of minors and their observance of these Rules.",
+        "listItem5-5": "It is not recommended to leave jewelry and money in the room (the administration is not responsible for their safety).",
+        "listItem5-6": "A guest who has discovered a loss, shortage or damage to his belongings in a number is obliged to notify the hotel administration without delay.",
+        "listItem6-1": "The hotel administration has the right:",
+        "listItem6-1-unordered-list-item-1": "to unilaterally terminate the contract for hotel services or refuse to extend the period of stay, as well as evict the guest from the hotel in cases of violation of these Rules, the order of stay, or late payment for hotel services, or if the material damage is caused to the hotel;",
+        "listItem6-1-unordered-list-item-2": "not to serve guests who are intoxicated by alcohol or drugs.",
+        "listItem7-1": "The hotel administration is obliged to:",
+        "listItem7-1-unordered-list-item-1": "Provide the paid hotel services to the guest in a timely manner, in full and with the declared quality;",
+        "listItem7-1-unordered-list-item-2": "to ensure the confidentiality of information about the guests and the visitors of the hotel;",
+        "listItem7-1-unordered-list-item-3": "ensure that each room contains information on the rules for staying at the hotel, fire safety rules and rules for using electrical appliances;",
+        "listItem7-1-unordered-list-item-4": "promptly respond to the guest requests to eliminate inconveniences, leaks and damages in the room;",
+        "listItem7-1-unordered-list-item-5": "to provide at the first request of the Guest feedback book",
+        "listItem7-1-unordered-list-item-6": "not to provide services provided for an additional fee, without the consent of the guest.",
+        "listItem7-2": "The hotel administration is obliged to provide free of charge:",
+        "listItem7-2-unordered-list-item-1": "repairs of identified damages that have occurred through no fault of the guest;",
+        "listItem7-2-unordered-list-item-2": "an ambulance call;",
+        "listItem7-2-unordered-list-item-3": "use of a medical kit;",
+        "listItem7-2-unordered-list-item-4": "delivery of correspondence to the room (upon receipt);",
+        "listItem7-2-unordered-list-item-5": "wake-up call;",
+        "listItem7-2-unordered-list-item-6": "boiling hot water;",
+        "listItem7-2-unordered-list-item-7": "daily room cleaning;",
+        "listItem7-2-unordered-list-item-8": "bed linen change - once every three days;",
+        "listItem7-2-unordered-list-item-9": "change of towels daily.",
+        "listItem7-3": "If things are found in the room after check-out time, the administration stores them in the hotel “lost and found” room.",
+        "listItem7-4": "The administration informs the guest about the forgotten things according to the contact information provided by the guest.",
+        "listItem7-5": "Forgotten items are kept for 6 (six) months.",
+        "listItem7-6": "After the expiration of the established storage period, things forgotten by the guest are considered unclaimed and are subject to disposal in accordance with the procedure established by the local regulatory acts of the Contractor.",
+        "listItem8-1": "For violation of these Rules, the guest can be brought to civil, administrative or criminal liability in case of violation of the current legislation of the Russian Federation."
+      },
+      "fireSafety" : {
+        "title": "Fire safety rules in the Orbital hotel",
+        "text": "These rules are mandatory fire safety requirements in the Orbital hotel, located at St. Petersburg, Aerodromnaya str., 4, lit. A (hereinafter referred to as the hotel). All hotel guests need to study themselves independently with these fire safety rules.",
+        "listItem1": "The hotel has an individual fire alarm system with voice announcement.",
+        "listItem2": "The hotel has primary fire extinguishing means - fire extinguishers, which are located in boxes, at the end of the corridors, in the halls and in the corridors of the hotel elevator halls on each floor (the location of fire extinguishers is indicated by fire safety signs “fire extinguisher”) next to the internal fire hydrants, completed with fire hoses and tables. and internal fire hydrants, equipped with fire hoses and trunks and installed in the corridors and on the landing of the stairwells of the escape routes.",
+        "listItem3": "There are 3 emergency exits on all the floors of the hotel: through the central staircase withaccess to the reception and through the stairwells located at the end of the corridors. Evacuationexits are equipped with a light board EXIT.",
+        "listItem4": "Windows of the first floor of the hotel, if necessary, can be considered as emergency exits and provided to increase the safety of people in case of fire.",
+        "listItem5": "Each emergency exit is equipped with manual alarm points (MAP), designed for manual signaling of a fire alarm.",
+        "listItem6": "There are evacuation plans in case of fire, which are located at each evacuation exit on all the hotel floors.",
+        "listItem7": "In the light halls, in the middle of floors 3 to 5, there are rope rescue ladders (RRL) (two on the third and fourth floors and one on the 5th floor), intended for lowering a person from a height in case of fire and an emergency, which can be used provided that they are securely fastened to the load-bearing structure of the hotel building (heating system pipeline).",
+        "listItem8": "The administrator on duty at the reception has self-rescuers (SPI-20) to protect the respiratory system and eyes from toxic combustion products and electric lights for each person on duty.",
+        "listItem9": "On the hotel territory it is prohibited:",
+        "listItem9-unordered-list-item-1": "to start open fire (torches, candles, matches, lighters, etc.);",
+        "listItem9-unordered-list-item-2": "to use of pyrotechnics (fireworks, firecrackers, sparklers) and others that can lead to a fire;",
+        "listItem9-unordered-list-item-3": "to park for personal vehicles along the entire length of the passage on the inner side of the building.",
+        "listItem10": "In the event of a fire in the room, the guest should do the following:",
+        "listItem10-unordered-list-item-1": "immediately report the fire by phone 101 (112) and the hotel administration 7000 or the M1 button, keeping calm;",
+        "listItem10-unordered-list-item-2": "take all possible measures to extinguish the fire with primary fire extinguishing means;",
+        "listItem10-unordered-list-item-3": "leave the dangerous area in accordance with the evacuation plan and act as directed by the hotel administration or representatives of the fire department.",
+        "listItem11": "In the event of a fire outside the room, the guest should observe the following rules:",
+        "listItem11-unordered-list-item-1": "Before opening the door, it is necessary to check if it is hot;",
+        "listItem11-unordered-list-item-2": "if the door is not hot, slowly open the door and leave the room, following to the nearest safe exit from the building to the street;",
+        "listItem11-unordered-list-item-3": "if the way to the exit is dangerous, you should return to your room and inform by phone 101 and the hotel administration 7000 or the M1 button;",
+        "listItem11-unordered-list-item-4": "if the corridors and stairwells are heavily smoked, and it is not possible to leave the hotel building, you should stay in the room. To avoid smoke poisoning, cover slots and ventilation openings with towels and bedding soaked in water. Try to inform the hotel administration by phone about your location;",
+        "listItem11-unordered-list-item-5": "if the walls and door of the room are hot, pour water over them from a bucket, or, for example, with a trash can, keeping them wet;",
+        "listItem11-unordered-list-item-6": "upon arrival the firefighters, go to the window and give a sign to help you.",
+        "listItem12": "When evacuating from the hotel in the event of a fire (emergency), you must:",
+        "listItem12-unordered-list-item-1": "listen carefully to the orders of the hotel administration or a fire security representative, start moving to the nearest evacuation (emergency) exit;",
+        "listItem12-unordered-list-item-2": "remember that in no case you should panic; not break glass windows;",
+        "listItem12-unordered-list-item-3": "not jump from upper floors. Even jumping from a relatively low height (2-3rd floor), you risk getting serious injuries, and starting from the 4th floor, every second jump is fatal;",
+        "listItem12-unordered-list-item-4": "not try to go down through the window with the help of sheets and ropes (if this is not the most urgent need), fall is almost always inevitable. It is necessary to use individual rescue devices;",
+        "listItem12-unordered-list-item-5": "not enter places with a high concentration of smoke without special protective equipment;",
+        "listItem12-unordered-list-item-6": "If the premises are filled with smoke, you must head towards the smoke-free stairs or to the exit, but not to the elevator;",
+        "listItem12-unordered-list-item-7": "You must entrust your rescue to specialists and wait for the fire brigade. Please believe, firefighters act promptly and professionally and will be able to come to help you in time;",
+        "listItem12-unordered-list-item-8": "Upon receiving sound and voice information about a fire, quickly leave the building through the nearest emergency exit, taking documents and valuables.",
+        "warning": "In the event of a fire, the use of passenger elevators is prohibited."
+      },
+      "personalSafety" : {
+        "title": "Personal and safety rules in the Orbital hotel",
+        "listItem1": "Being on the hotel territory:",
+        "listItem1-unordered-list-item-1": "pay attention to suspicious objects (bags, packages, parcels, etc.), things left unattended;",
+        "listItem1-unordered-list-item-2": "never accept things (objects) from strangers for storage (even short-term) or for transfer to other hotel guests;",
+        "listItem1-unordered-list-item-3": "do not leave your belongings unattended.",
+        "listItem2": "Signs of explosive devices:",
+        "listItem2-unordered-list-item-1": "the presence of power sources (batteries) on the found item;",
+        "listItem2-unordered-list-item-2": "the presence of wires, antennas etc;",
+        "listItem2-unordered-list-item-3": "noise from the detected object (ticking, clicking);",
+        "listItem2-unordered-list-item-4": "stretch marks made of wires, ropes etc;",
+        "listItem2-unordered-list-item-5": "a specific smell, not characteristic of the surrounding area.",
+        "listItem3": "Actions under the terrorist attack:",
+        "listItem3-text1": "After an explosion, important rules must be followed:",
+        "listItem3-unordered-list-item-1": "make sure you are not seriously injured;",
+        "listItem3-unordered-list-item-2": "if you are injured or trapped, do not try to get out by your own;",
+        "listItem3-unordered-list-item-3": "move sharp objects away from you;",
+        "listItem3-unordered-list-item-4": "if you have a mobile phone, call the emergency services 112;",
+        "listItem3-unordered-list-item-5": "shout only when you hear the voices of emergency workers - otherwise there is a risk of suffocation from the dust;",
+        "listItem3-unordered-list-item-6": "under no circumstances start a fire;",
+        "listItem3-unordered-list-item-7": "If a heavy object has crushed your leg or arm, try to massage it to maintain blood circulation.",
+        "listItem4": "Actions upon detection of suspicious objects, orphaned items, explosive devices:",
+        "listItem4-unordered-list-item-1": "It is necessary to report immediately about the suspicious object to the hotel administrator on duty;",
+        "listItem4-unordered-list-item-2": "do not report the threat of an explosion to anyone except those who, according to their terms of reference, need to know about what happened, so as not to cause panic;",
+        "listItem4-unordered-list-item-3": "wait for the arrival of emergency services, indicate the location of the suspicious object, the time and circumstances of its detection;",
+        "listItem4-unordered-list-item-4": "continue to act according the instructions of the emergency services;",
+        "listItem4-unordered-list-item-5": "it is forbidden to touch and move the detected suspicious object, approach and smoke near the detected object, use radio communications, mobile phones near it. Do not allow other people to do this until the arrival of emergency services;",
+        "listItem4-unordered-list-item-6": "it is forbidden to pour liquids on the detected object, cover it with earth, fabrics or other materials;",
+        "listItem4-unordered-list-item-7": "it is forbidden to make impact on the detected object with temperature, sound, light, fabrics and other.",
+        "listItem5": "Evacuation:",
+        "listItem5-text1": "The signal for evacuation is the information transmitted over the loudspeaker communication: “Attention to everyone! Please leave the premises! ",
+        "listItem5-text2": "After receiving the message:",
+        "listItem5-unordered-list-item-1": "take personal belongings, documents, money, valuables, clothes with you without haste and panic;",
+        "listItem5-unordered-list-item-2": "leave the premises, following the routes indicated on the evacuation schemes;",
+        "listItem5-unordered-list-item-3": "evacuation must take place in an orderly manner. Follow the commands of the hotel administrator on duty or emergency services;",
+        "listItem5-unordered-list-item-4": "Return to the premises only after the permission of the responsible people.",
+        "listItem6": "In the event of a terrorist attack threat:",
+        "listItem6-text1": "Upon receipt of a terrorist attack threat by phone:",
+        "listItem6-unordered-list-item-1": "do not give in to panic;",
+        "listItem6-unordered-list-item-2": "it is necessary to be calm, polite, not to interrupt the speaker;",
+        "listItem6-unordered-list-item-3": "turn on the sound recording equipment (if available), voice recorder (if available in the phone); report the information received by an emergency telephone number and the hotel administrator on duty;",
+        "listItem6-unordered-list-item-4": "act as directed by the emergency personnel.",
+        "listItem6-unordered-list-item-5": "действовать по указанию сотрудников экстренных служб.",
+        "listItem7": "Actions when terrorists take hostages:",
+        "listItem7-text1": "By coincidence, any person can be held hostage by criminals. They can try to achieve political goals, demand ransom, etc. In all cases, your life becomes a trade-off for terrorists.",
+        "listItem7-text2": "In the event of an attack on the building in which you are located:",
+        "listItem7-text3": "In the event of hostage taking threat, try to avoid become one of them. Leave the dangerous area immediately and hide. After hiding, wait for the terrorists to leave and leave the shelter as soon as possible.",
+        "listItem7-unordered-list-item-1": "use any available cover;",
+        "listItem7-unordered-list-item-2": "fall even into the mud, do not run;",
+        "listItem7-unordered-list-item-3": "cover your head and turn away from the attacking side.",
+        "listItem8": "Being held as a hostage:",
+        "listItem8-text1": "During the operation for your release, strictly observe the following requirements:",
+        "listItem8-unordered-list-item-1": "if necessary, implement the requirements of criminals, do not contradict terrorists;",
+        "listItem8-unordered-list-item-2": "do not risk the lives of others and your own;",
+        "listItem8-unordered-list-item-3": "do not provoke actions that may lead to the use of weapons by terrorists;",
+        "listItem8-unordered-list-item-4": "lie on the floor face down, cover your head with your hands and do not move;",
+        "listItem8-unordered-list-item-5": "in any case, do not run towards the intelligence officers or from them, as you may be mistaken for a criminal;",
+        "listItem8-unordered-list-item-6": "if possible, stay away from door openings and windows.",
+        "warning1": "Remember! Your life and health, as well as the life and health of many people, will depend on the consistency and clarity of your actions!",
+        "warning2": "Emergency telephone number - 112",
+        "description": "The hotel administrator on duty: St. Petersburg: 7000 or M1 button, 8 (812) 394-15-05;"
+      }
+
+    }
+  },
+  "ui": {
+    "location": {
+      "title": "Location"
+    },
+    "cityNavbar": {
+      "rooms": "Rooms",
+      "about": "Hotel",
+      "specialOffers": "Special offers",
+      "leisures": "Leisures",
+      "news": "News",
+      "contacts": "Contacts"
+    },
+    "welcome": {
+      "welcomeCard": {
+        "welcome": "Welcome!",
+        "book": "book a room",
+        "more": "More about the hotel"
+      }
+    },
+    "citiesModal": {
+      "spb": "Saint Petersburg",
+      "obn": "Obninsk",
+      "nvz": "Novovoronezh",
+      "title": "The choice of the city"
+    },
+    "сitiesLink": {
+      "spb": "Saint Petersburg",
+      "obn": "Obninsk",
+      "nvz": "Novovoronezh"
+    },
+    "historyHotel": {
+      "historyHotelInfo": {
+        "title": "Hotel History"
+      },
+      "historyHotelCard": {
+        "year": "Y."
+      }
+    },
+    "selfCityLink": {
+      "text": "home"
+    },
+    "specialForYou": {
+      "title": "Special offers",
+      "button": "All special offers"
+    },
+    "callMeBack": {
+      "title": "Waiting for you!"
+    },
+    "hotelPhotos": {
+      "title": "Hotel photos"
+    },
+    "hotelRooms": {
+      "title": "Rooms",
+      "hotelRoomsBannerSlider": {
+        "hotelRoomsBannerCard": {
+          "button": "More about the room",
+          "footnote": "* The room may differ from the photos presented",
+          "noDescription": "No description"
+        }
+      }
+    },
+    "aboutUs": {
+      "title": "About Us"
+    },
+    "hotelReviews": {
+      "title": "Reviews"
+    },
+    "reviewsSliderCard": {
+      "link": "show more"
+    },
+    "roomsFund": {
+      "title": "Rooms",
+      "button": "All numbers"
+    },
+    "burgerMenuNavbar": {
+      "rooms": "Rooms",
+      "about": "Hotel",
+      "specialOffers": "Special offers",
+      "leisures": "Leisures",
+      "news": "News",
+      "contacts": "Contacts"
+    },
+    "resortFeeInitModal": {
+      "title": "Resort fee",
+      "text1": "In accordance with the Law of St. Petersburg dated June 28, 2023 No. 419-81 “On the introduction of a resort fee on the territory of St. Petersburg,” a resort fee will be collected in St. Petersburg from April 1, 2024.",
+      "text2": "Persons over 18 years of age who plan to stay at the property for more than 24 hours are required to pay a resort fee upon check-in in the amount of 100 rubles per day per person.",
+      "text3": "21 preferential categories of citizens are exempt from paying the resort fee, including veterans, disabled people of groups 1-2, university students in St. Petersburg, members of large families and others.",
+      "text4": "If there is a benefit, residents must have with them the original document confirming the availability of the benefit, or a duly certified copy of it."
+    }
+  }
+}

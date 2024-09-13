@@ -1,0 +1,2 @@
+export const SPECIAL_OFFERS_PAGE_SIZE = 4;
+export const SPECIAL_OFFERS_NESTED_SIZE = 2;

@@ -1,0 +1,19 @@
+.otherSpecialOffersDivider {
+  margin-bottom: 42px;
+}
+
+.otherSpecialOffersTitle {
+  margin: 0 0 56px;
+  text-align: center;
+}
+
+.otherSpecialOffers {
+  padding: 0 20px;
+}
+
+@media (max-width: 1023px) {
+  .otherSpecialOffersTitle {
+    margin: 0 0 20px;
+    text-align: start;
+  }
+}

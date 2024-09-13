@@ -1,0 +1,26 @@
+.footerContacts {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  padding-left: 135px;
+}
+
+@media (max-width: 1350px) {
+  .footerContacts {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .footerContacts {
+    padding: 30px 0 30px;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 767px) {
+  .footerContacts {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+}

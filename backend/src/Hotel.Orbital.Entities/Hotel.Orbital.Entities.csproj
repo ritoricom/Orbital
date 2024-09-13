@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <NoWarn>CS8618</NoWarn>
+
+        <!--
+            TODO: Было бы хорошо избавиться от этого тега, но необязательно. 
+            По идее, делается автоматически в IDE, но могут возникнуть внезапные проблемы
+        -->
+        <RootNamespace>Entities</RootNamespace>
+
+    </PropertyGroup>
+
+</Project>

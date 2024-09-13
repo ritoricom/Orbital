@@ -1,0 +1,48 @@
+.otherLeisuresTitle {
+  margin: 42px 0 52px;
+  text-align: center;
+}
+
+@media (max-width: 1250px) {
+  .leisureCardGrid {
+    grid-auto-rows: 280px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .otherLeisuresTitle {
+    margin: 0 0 20px;
+    text-align: start;
+  }
+}
+
+@media (max-width: 1023px) {
+  .leisureCardGrid {
+    grid-auto-rows: 236px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .otherLeisuresTitle {
+    margin: 0 0 20px;
+    text-align: start;
+  }
+
+  .otherLeisuresCardTitle {
+    -webkit-line-clamp: 4;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .leisureCardGrid {
+    grid-auto-rows: 280px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 479px) {
+  .leisureCardGrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .otherLeisuresCardTitle {
+    -webkit-line-clamp: 3;
+    font-size: 20px;
+  }
+}

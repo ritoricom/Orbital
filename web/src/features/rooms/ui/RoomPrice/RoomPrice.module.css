@@ -1,0 +1,42 @@
+.roomPriceDivider {
+  margin: 0 0 16px;
+  border-top-width: 1px;
+}
+
+.roomPriceText {
+  margin: 0 0 4px;
+}
+
+.roomPriceNumber {
+  margin: 0;
+}
+
+@media (max-width: 1023px) {
+  .roomPrice {
+    max-width: 100%;
+    padding: 22px 30px 30px;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.02);
+  }
+  .roomPriceFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .roomPriceText {
+    align-self: center;
+    margin: 0;
+  }
+}
+
+@media (max-width: 479px) {
+  .roomPrice {
+    max-width: 100%;
+    padding: 16px 20px 20px;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.02);
+  }
+  .roomPriceDivider {
+    margin: 0 0 12px;
+  }
+}

@@ -1,0 +1,25 @@
+.hotelPhotosContent {
+  padding: 0 0 160px;
+}
+
+.hotelPhotosTitle {
+  text-align: center;
+  margin: 42px 0px 52px;
+}
+
+@media (max-width: 1023px) {
+  .hotelPhotosTitle {
+    text-align: start;
+    margin: 0px 0px 20px;
+  }
+  .hotelPhotosContent {
+    padding: 0 0 60px;
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 479px) {
+  .hotelPhotosContent {
+    padding-top: 10px;
+  }
+}

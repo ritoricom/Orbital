@@ -1,0 +1,14 @@
+.roomsSliderArrowPrev {
+  left: -88px;
+}
+
+.roomsSliderArrowNext {
+  right: -88px;
+}
+
+@media (max-width: 1599px) {
+  .roomsSliderArrowPrev,
+  .roomsSliderArrowNext {
+    display: none;
+  }
+}
