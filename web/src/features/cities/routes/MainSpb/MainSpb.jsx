@@ -64,7 +64,6 @@ export const MainSpb = ({ specialOffers, rooms, photos, contacts }) => {
         </PromoContent>
       </Promo>
       <Main>
-        <ResortFeeInitModal />
         <BookingPanel />
         <Welcome
           desktopMapImg={{ ru: desktopMapImgRu, en: desktopMapImgEn }}
