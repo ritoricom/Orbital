@@ -14,3 +14,8 @@
 $ docker build -f deploy/Dockerfile -t <image-tag> .
 $ docker run -p 80:80 -d <image-tag>
 ```
+или конкретнее:
+```
+$ docker build -f deploy/Dockerfile -t orbital-web .
+$ docker run -p 8000:80 -d orbital-web
+```

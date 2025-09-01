@@ -6,12 +6,12 @@ services:
     container_name: api
     restart: always
     ports:
-      - "8001:80"
+      - "5271:80"
     build:
       context: .
       dockerfile: src/Hotel.Orbital.Api/Dockerfile
     environment:
-      ASPNETCORE_ENVIRONMENT: "Production"
+      ASPNETCORE_ENVIRONMENT: "Development"
       ConnectionStrings__DefaultConnection: "Host=db;Port=5432;Username=${DB_USERNAME?err};Password=${DB_PASSWORD?err}"
       BnovoOptions__Username: ${BNOVO_USERNAME?err}
       BnovoOptions__Password: ${BNOVO_PASSWORD?err}
