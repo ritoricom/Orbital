@@ -14,3 +14,4 @@ export * from "./LocationIcon";
 export * from "./ClockIcon";
 export * from "./AccountIcon";
 export * from "./SearchIcon";
+export * from "./CertificateIcon";

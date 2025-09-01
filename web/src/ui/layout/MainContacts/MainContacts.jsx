@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-import { PhoneIcon, MailIcon } from "@/ui/icons";
+import { PhoneIcon, MailIcon, CertificateIcon } from "@/ui/icons";
 import { Link } from "@/ui/navigation";
 import { createEmailHref, createPhoneHref } from "@/utils/anchor";
 import { displayPhone } from "@/utils/display";
@@ -71,10 +71,9 @@ export const MainContacts = ({ phone, email, color }) => {
           uppercase
           size="s"
           href={extraLink.href}
-          startIcon={<MailIcon />}
+          startIcon={<CertificateIcon />}
           className={styles.contactLink}
           innerClassName={getUnderlineColorClassName(color)}
-          style={{ display: "none" }}
         >
           {extraLink.text}
         </Link>
