@@ -25,7 +25,6 @@ import {
   StickyCityNavbar,
   WelcomeText,
   Stars,
-  ResortFeeInitModal,
 } from "@/features/cities";
 import { useMediaQuery } from "@/lib/media";
 
